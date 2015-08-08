@@ -85,7 +85,7 @@ app = web.Application([
     (r'/calendar', GoogleCalendarLogin),
     (r'/calendar/addevent', GoogleCalendarAddEvent),
     (r'/css/(.*)', web.StaticFileHandler, {'path': "static/css"}),
-    (r'/audio/(.*)', web.StaticFileHandler, {'path': "static/audio"}),
+    (r'/audio/(.*)', web.StaticFileHandler, {'path': "static/audios"}),
     (r'/js/(.*)', web.StaticFileHandler, {'path': "static/js"}),
     (r'/img/(.*)', web.StaticFileHandler, {'path': "static/img"}),
     (r'/fonts/(.*)', web.StaticFileHandler, {'path': "static/fonts"}),

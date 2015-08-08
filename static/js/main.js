@@ -1,5 +1,15 @@
 $(".l3").hide();
 $("#nav1").hide();
+$("#ptimer").hide();
+
+var pomr = 0;
+var autopom = true;
+
+setTimeout(function(){
+    SC.initialize({
+      client_id: 'cee27d0ebe60b52c3781ad18c64ccb31'
+    });
+}, 1000);
 
 function addTimer(){
     var name = prompt("What would you like to name this timer?")
@@ -8,10 +18,42 @@ function addTimer(){
                         <input class="form-control ti tm" placeholder="mm"> : <input class="form-control ti ts" placeholder="ss"> <br><br>\
                         <a href="#" class="btn btn-primary btn-sm" onclick="sT($(this))">Start</a>\
                     </div>'
+    
     $(html).insertAfter("#conf")
 }
 
+function startPom(){
+   
+    $("#ptimer").attr("stopped", "false");
+    addPomTimer(2, "")
+    $("#ptimer").slideDown();
+}
 
+function stopPom(){
+    pomr = 0;
+    $("#ptimer").attr("stopped", "true");
+    $("#ptimer").slideUp();
+}
+
+function addPomTimer(min, n){
+        if(min == 2){
+            pomr += 1;
+            $("#ptimer").attr("break","false")
+        }
+        var html = '<span class="name">Pomodora '+n+'Timer</span> <br>\
+                        <span class="t"><span class="tm">'+min+'</span>:<span class="ts">00</span></span>'
+        $("#ptimer").html(html)
+}
+
+function startPomBreak(){
+    $("#ptimer").attr("break","true")
+    if(pomr == 4){
+        pomr = 0
+        addPomTimer(3, "Extended Break ")
+    } else {
+        addPomTimer(1, " Break ")
+    }
+}
 
 
 
@@ -49,12 +91,35 @@ function updateTime(){
                     a.volume = 1;
                     a.play();
                     $(this).addClass("done") //ToDo: Style
-                    //ToDo: Play sound
+                    
+                    if($(this).is("[id]")){ //Pom is done
+                        
+                        if(autopom == true){
+                             $(this).attr("stopped", "false")
+                            if($(this).attr("break") == "false"){
+                                startPomBreak()
+                            } else {
+                                addPomTimer(2, "")
+                            }
+                        } else {
+                            $(this).append('<br><br><a href="#" class="btn btn-success btn-xs lolol">Continue Timer</a>')
+                            $(".lolol").click(function(){
+                                $("#ptimer").attr("stopped", "false")
+                                if($("#ptimer").attr("break") == "false"){
+                                    startPomBreak()
+                                } else {
+                                    addPomTimer(2, "")
+                                }
+                            });
+                            
+                        }
+                        
+                    }
                     
                     
                 } else {
                     //count down minutes
-                    $(".ts",this).text("60")
+                    $(".ts",this).text("59")
                     if((m+"").length == 1){
                         $(".tm",this).text("0"+m)
                     } else {
@@ -149,6 +214,16 @@ function addGoal(){
                         </span><br><br><div class="btn-group"><a href="#" class="btn btn-danger" onclick="gM($(this))">-</a><a href="#" class="btn btn-success" onclick="gP($(this))">+</a></div></div>';
     
     $(html).insertAfter("#conf")
+}
+
+function saveC(){
+    autopom = $("#autopom").is(':checked');
+    $("#closeC").click();
+}
+
+function startMusic(){
+    "best-deep-house-chill-music"    
+    
 }
 
 setInterval(updateTime, 1000)

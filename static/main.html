@@ -19,10 +19,14 @@
             <div class="row" id="cont">
                 <div class="col-xs-2" id="sidebar">
                     <div class="s" id="time">
-                        <span>Hello, {{user}}!<br>The time is</span>
-                        <span id="dtime"></span>
+                        <span>Hello, {{user}}!
+                        <!--<br>The time is</span>-->
+                        <span id="dtime" style="display:none"></span>
                     </div>
-                
+                    
+                        <div class="s timer" stopped="false" id="ptimer"></div>
+                        
+                    <div id="yoga" class="s c" data-toggle="modal" data-target="#cModal"><b><i class="fa fa-leaf"></i></b>&nbsp;Yoga</div>
                     <div id="add" class="s dropdown">
                         <span class="dropdown-toggle c" data-toggle="dropdown" role="button" aria-expanded="false"><b><i class="fa fa-plus"></i></b>&nbsp;Add Widget</span>
                         <ul class="dropdown-menu" role="menu" style="width:80%;">
@@ -30,6 +34,7 @@
                             <li><a href="#" onclick="addGoal(); return false;">Add Goal</a></li>
                         </ul>
                     </div>
+                   
                     
                     <div id="conf" class="s c" data-toggle="modal" data-target="#cModal"><b><i class="fa fa-cog"></i></b>&nbsp;Customize</div>
                     
@@ -97,8 +102,19 @@
                     </div>
                     <div class="modal-body" >
                         
-                        todo
-
+                        <label><input type="checkbox" id="autopon" checked> &nbsp; Automatically continue on Ponodoro</label>
+                        <br><hr><br>
+                        <select class="form-control" id="songchoice" onchange="startMusic()">
+                            <option noplay>Select music to play</option>
+                            <option>Acoustic</option>
+                            <option>Nature Sounds</option>
+                            <option>Classical</option>
+                            <option>Instrumental</option>
+                            <option>Chill</option>
+                            <option>Ambiant</option>
+                            <option>Relax</option>
+                            <option>Soft</option>
+                        </select>
 
                     </div>
                     <div class="modal-footer">
@@ -109,7 +125,7 @@
             </div>
         </div>
         
-        
+        <script src="http://connect.soundcloud.com/sdk-2.0.0.js"></script>
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/main.js"></script>
