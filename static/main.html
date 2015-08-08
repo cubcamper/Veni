@@ -4,19 +4,30 @@
         <title>TITLE - Veni</title>
         
         <link href="css/paper.css" type="text/css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" type="text/css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
         <link href="css/main.css" type="text/css" rel="stylesheet">
         
         <!-- Todo: Inlcude meta tags -->
     </head>
     
     <body>
+<<<<<<< HEAD
 <!--header-->
         <div id="header"><img src = "3.png" id="logo"/></div>
             <div class="container-fluid" style="height:93%;">
+=======
+        <div id="header"><i class="fa fa-bars fa-3x"></i></div>
+        
+        <div class="container-fluid" style="height:93%;">
+>>>>>>> 6965cb80da4a8814fce2fc53d12ae880b4e21237
             <div class="row" id="cont">
-                <div class="col-xs-3" style="color:red"></div>
-                <div class="col-xs-9" style="color:blue"></div>
+                <div class="col-xs-2" id="sidebar">
+                    <div class="s" id="time">
+                        <span>Hello, {{user}}!<br>The time is</span>
+                        <span id="dtime"></span>
+                    </div>
+                </div>
+                <div class="col-xs-10" id="content"></div>
             </div>
         </div>
          
