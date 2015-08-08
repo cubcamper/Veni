@@ -20,8 +20,63 @@
                         <span>Hello, {{user}}!<br>The time is</span>
                         <span id="dtime"></span>
                     </div>
+                
+                    <div id="add" class="s dropdown">
+                        <span class="dropdown-toggle c" data-toggle="dropdown" role="button" aria-expanded="false"><b><i class="fa fa-plus"></i></b>&nbsp;Add Widget</span>
+                        <ul class="dropdown-menu" role="menu" style="width:80%;">
+                            <li><a href="#" onclick="addPerson(); return false;">Add Person</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="s c" data-toggle="modal" data-target="#cModal"><b><i class="fa fa-cog"></i></b>&nbsp;Customize</div>
+                    
+                    <div id="nav" class="s">
+                        <big onclick="$('#nav1').slideToggle()">Nav <i class="fa fa-chevron-down"></i></big>
+                        <div id="nav1">
+                            <div id="prod" class="l2">
+                                <span onclick="$('#pt').slideToggle()">Productivity <i class="fa fa-angle-down"></i></span>
+                                <div id="pt" class="l3">
+                                    <a href="#">Todo Lists</a>
+                                    <a href="#">Calendar</a>
+                                    <a href="#">Pomodoro</a>
+                                </div>
+                            </div>
+                            
+                            <div id="study" class="l2">
+                                <span onclick="$('#st').slideToggle()">Study <i class="fa fa-angle-down"></i></span>
+                                <div id="st" class="l3">
+                                    <a href="#">Flashcards</a>
+                                    <a href="#">Study Tips</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div class="col-xs-10" id="content"></div>
+            </div>
+        </div>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="cModal" tabindex="-1" role="dialog" aria-labelledby="cModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeC"><span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title" id="editModalLabel">Customize Veni</h4>
+                    </div>
+                    <div class="modal-body" >
+                        
+                        todo
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary" onclick="saveC()">Save Changes</button>
+                    </div>
+                </div>
             </div>
         </div>
         
