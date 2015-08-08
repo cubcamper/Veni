@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://curtisblackwell.github.io/flash_cards/ -->
+<html class=" js csstransforms3d" lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Flash Cards</title>
+  <meta name="description" content="Simple, animated, and imageless flash cards using HTML/CSS/jQuery.">
+  <meta name="author" content="Curtis Blackwell… sorta.">
+
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="http://curtisblackwell.github.io/flash_cards/css/style.css">
+  <link href="css/css" rel="stylesheet" type="text/css">
+  <script src="js/modernizr-2.5.3.min.js"></script><style type="text/css"></style>
+</head>
+<body>
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+  <h1><a href="https://quizlet.com{{url}}" target="_blank">{{title}}</a></h1>
+
+  <ul id="deck" style="overflow: visible;">
+    <!--<li class="card" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 4; opacity: 1; width: 500px; height: 300px;">
+      <div class="side_one">
+        <p>Hello</p>
+      </div>
+      <div class="side_two">
+        <p>안녕하세요</p>
+      </div>
+    </li>-->
+      
+      {% for c in i %}
+          <li class="card" style="position: absolute; top: 0px; left: 0px; display: none; z-index: 4; opacity: 1; width: 500px; height: 300px;">
+          <div class="side_one">
+            <p>{{c['term']}}</p>
+          </div>
+          <div class="side_two">
+            <p>{{c['definition']}}</p>
+          </div>
+        </li>
+      {% end %}
+      
+    
+      
+       
+  </ul>
+
+  <div id="nav_deck">
+    <span class="icon" id="prev" data-icon="&lt;"><span class="visuallyhidden">Previous</span></span>
+    <span class="icon" id="flipper" data-icon="/"><span class="visuallyhidden">Flip</span></span>
+    <span class="icon" id="next" data-icon="&gt;"><span class="visuallyhidden">Next</span></span>
+  </div>
+
+  
+
+  <script src="js/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
+
+  <script src="js/flash_cards.min.js"></script>
+
+
+</body></html>

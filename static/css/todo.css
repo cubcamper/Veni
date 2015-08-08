@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,400italic,700,900,700italic,900italic,300);
+
 /* nanoscrollbar */
 .nano .pane   { background: #888; }
 .nano .slider { background: #111; }
@@ -6,6 +8,7 @@ body {
     /* Override bootstrap properties */
     background-color: #e9eaed !important;
     border: 0 !important;
+    font-family: 'Lato', sans-serif; 
 }
 
 #container{
@@ -20,9 +23,18 @@ body {
     font-size: 30px;
     text-align: center;
     margin-bottom: 15px;
-    color: #00000;
+    color: #ffffff;
 }
+#bigbox{
+ position: absolute;   
+}
+#buttonone{
+   
+    position: relative;
+    margin-right: -15;
 
+    
+}
 .task-list{
     width: 250px;
     float: left;
@@ -31,6 +43,7 @@ body {
     min-height: 240px;
     border-radius: 10px;
     padding-bottom: 15px;
+    display: inline-block;
 }
 
 .task-list input, .task-list textarea{

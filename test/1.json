@@ -1,0 +1,3914 @@
+[{
+    'display_timestamp': 'In May 2015',
+    'terms': [{
+        'definition': 'SDUF\n\nStrength (strong)\nDirection (+/-)\nUnusual features (outliers)\nForm (linear, curved)',
+        'rank': 0,
+        'term': 'Scatterplot',
+        'id': 2525041533,
+        'image': None
+    }, {
+        'definition': 'R-AP\n\nResidual = Actual-Predicted\nr=y-yhat',
+        'rank': 1,
+        'term': 'Residuals',
+        'id': 2525081951,
+        'image': None
+    }, {
+        'definition': 'CUSS\n\nCenter\nUnusual features (gaps, outliers)\nShape (unimodal , symmetric, skewed)\nSpread',
+        'rank': 2,
+        'term': 'Describing histograms, d0tplot, stem+leaf plots',
+        'id': 2525060234,
+        'image': None
+    }, {
+        'definition': 'CSI\n\nConditions (assumptions)\nShow work (name test)\nInterpret interval (conclusion)',
+        'rank': 3,
+        'term': 'Confidence Interval',
+        'id': 2525089919,
+        'image': None
+    }, {
+        'definition': "Type I: You're pregnant (to guy)\nType II: You're not pregnant (to pregnant woman)",
+        'rank': 4,
+        'term': 'Type I and II errors',
+        'id': 2525102549,
+        'image': None
+    }, {
+        'definition': 'GUTS\n\nGraphs\nUnits\nTitle\nSame scale for two',
+        'rank': 5,
+        'term': 'Graphs',
+        'id': 2525138204,
+        'image': None
+    }, {
+        'definition': 'CRR\n\nControl\nRandomization\nRepetition',
+        'rank': 6,
+        'term': 'Well designed expiriments',
+        'id': 2525147291,
+        'image': None
+    }, {
+        'definition': 'SINS\n\nSRS\nIndependancre\nN<10%\nSuccess/failure (np > 10; nq > 10)',
+        'rank': 7,
+        'term': '1 prop z-test (interval)',
+        'id': 2525203983,
+        'image': None
+    }, {
+        'definition': 'SIN\n\nSRS\nIndependant groups\nNearly Normal (histigram or NPP or CLT when n is large)',
+        'rank': 8,
+        'term': '1 samp t-test (interval)',
+        'id': 2525230667,
+        'image': None
+    }, {
+        'definition': '2 Dependant groups; df = n-1;\n\nPR10N\n\nPaired data\nRandom\n10%\nNearly normal on differences',
+        'rank': 9,
+        'term': 'Matched Pairs T-Test',
+        'id': 2525253701,
+        'image': None
+    }, {
+        'definition': 'GOF df = n-1 | Other df = (r-1)(c-1)\n\nCIESR\n\nCounts of data\nIndependance\nExpected counts >= 5\nSimple \nRandom Sample',
+        'rank': 10,
+        'term': 'Chi-Square Test',
+        'id': 2525269878,
+        'image': None
+    }, {
+        'definition': 'df = n-2\n\nNICL\n\nNormality (check histigram of NPP)\nIndependance\nConstant variance (no "fan" in residuals or about line)\nLinearilty (scatterplot + residuals)',
+        'rank': 11,
+        'term': 'Linear Regression T-test for SLOPE',
+        'id': 2525282733,
+        'image': None
+    }],
+    'title': 'AP Stats test conditions',
+    'term_count': 12,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'en',
+    'url': '/81684271/ap-stats-test-conditions-flash-cards/',
+    'id': 81684271,
+    'published_date': 1430769484,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1430769485,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1430767244,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': 'In September 2014',
+    'terms': [{
+        'definition': 'Hydrogen',
+        'rank': 0,
+        'term': 'H⁺',
+        'id': 1640891525,
+        'image': None
+    }, {
+        'definition': 'Lithium',
+        'rank': 1,
+        'term': 'Li⁺',
+        'id': 1640891526,
+        'image': None
+    }, {
+        'definition': 'Sodium',
+        'rank': 2,
+        'term': 'Na⁺',
+        'id': 1640891527,
+        'image': None
+    }, {
+        'definition': 'Potassium',
+        'rank': 3,
+        'term': 'K⁺',
+        'id': 1640891528,
+        'image': None
+    }, {
+        'definition': 'Rubidium',
+        'rank': 4,
+        'term': 'Rb⁺',
+        'id': 1640891529,
+        'image': None
+    }, {
+        'definition': 'Cesium',
+        'rank': 5,
+        'term': 'Cs⁺',
+        'id': 1640891530,
+        'image': None
+    }, {
+        'definition': 'Beryillium',
+        'rank': 6,
+        'term': 'Be²⁺',
+        'id': 1640891531,
+        'image': None
+    }, {
+        'definition': 'Magnesium',
+        'rank': 7,
+        'term': 'Mg²⁺',
+        'id': 1640891532,
+        'image': None
+    }, {
+        'definition': 'Calcium',
+        'rank': 8,
+        'term': 'Ca²⁺',
+        'id': 1640891533,
+        'image': None
+    }, {
+        'definition': 'Barium',
+        'rank': 9,
+        'term': 'Ba²⁺',
+        'id': 1640891534,
+        'image': None
+    }, {
+        'definition': 'Strontium',
+        'rank': 10,
+        'term': 'Sr²⁺',
+        'id': 1640891535,
+        'image': None
+    }, {
+        'definition': 'Aluminum',
+        'rank': 11,
+        'term': 'Al³⁺',
+        'id': 1640891536,
+        'image': None
+    }, {
+        'definition': 'Hydride',
+        'rank': 12,
+        'term': 'H⁻',
+        'id': 1640891537,
+        'image': None
+    }, {
+        'definition': 'Fluoride',
+        'rank': 13,
+        'term': 'F⁻',
+        'id': 1640891538,
+        'image': None
+    }, {
+        'definition': 'Bromide',
+        'rank': 14,
+        'term': 'Cl⁻',
+        'id': 1640891539,
+        'image': None
+    }, {
+        'definition': 'Iodide',
+        'rank': 15,
+        'term': 'I⁻',
+        'id': 1640891540,
+        'image': None
+    }, {
+        'definition': 'Oxide',
+        'rank': 16,
+        'term': 'O²⁻',
+        'id': 1640891541,
+        'image': None
+    }, {
+        'definition': 'Sulfide',
+        'rank': 17,
+        'term': 'S²⁻',
+        'id': 1640891542,
+        'image': None
+    }, {
+        'definition': 'Selenide',
+        'rank': 18,
+        'term': 'Se²⁻',
+        'id': 1640891543,
+        'image': None
+    }, {
+        'definition': 'Nitride',
+        'rank': 19,
+        'term': 'N³⁻',
+        'id': 1640891544,
+        'image': None
+    }, {
+        'definition': 'Phosphide',
+        'rank': 20,
+        'term': 'P³⁻',
+        'id': 1640891545,
+        'image': None
+    }, {
+        'definition': 'Arsenide',
+        'rank': 21,
+        'term': 'As³⁻',
+        'id': 1640891546,
+        'image': None
+    }, {
+        'definition': 'Iron (III)',
+        'rank': 22,
+        'term': 'Fe³⁺',
+        'id': 1640891547,
+        'image': None
+    }, {
+        'definition': 'Iron (II)',
+        'rank': 23,
+        'term': 'Fe²⁺',
+        'id': 1640891548,
+        'image': None
+    }, {
+        'definition': 'Copper (II)',
+        'rank': 24,
+        'term': 'Cu²⁺',
+        'id': 1640891549,
+        'image': None
+    }, {
+        'definition': 'Copper (I)',
+        'rank': 25,
+        'term': 'Cu⁺',
+        'id': 1640891550,
+        'image': None
+    }, {
+        'definition': 'Cobalt (III)',
+        'rank': 26,
+        'term': 'Co³⁺',
+        'id': 1640891551,
+        'image': None
+    }, {
+        'definition': 'Cobalt (II)',
+        'rank': 27,
+        'term': 'Co²⁺',
+        'id': 1640891552,
+        'image': None
+    }, {
+        'definition': 'Tin (IV)',
+        'rank': 28,
+        'term': 'Sn⁴⁺',
+        'id': 1640891553,
+        'image': None
+    }, {
+        'definition': 'Tin (II)',
+        'rank': 29,
+        'term': 'Sn²⁺',
+        'id': 1640891554,
+        'image': None
+    }, {
+        'definition': 'Lead (IV)',
+        'rank': 30,
+        'term': 'Pb⁴⁺',
+        'id': 1640891555,
+        'image': None
+    }, {
+        'definition': 'Lead (II)',
+        'rank': 31,
+        'term': 'Pb²⁺',
+        'id': 1640891556,
+        'image': None
+    }, {
+        'definition': 'Mercury (II)',
+        'rank': 32,
+        'term': 'Hg²⁺',
+        'id': 1640891557,
+        'image': None
+    }, {
+        'definition': 'Silver',
+        'rank': 33,
+        'term': 'Ag⁺',
+        'id': 1640891558,
+        'image': None
+    }, {
+        'definition': 'Zinc',
+        'rank': 34,
+        'term': 'Zn²⁺',
+        'id': 1640891559,
+        'image': None
+    }, {
+        'definition': 'Mercury (I)',
+        'rank': 35,
+        'term': 'Hg₂²⁺',
+        'id': 1640891560,
+        'image': None
+    }, {
+        'definition': 'Ammonium',
+        'rank': 36,
+        'term': 'NH₄⁺',
+        'id': 1640891561,
+        'image': None
+    }, {
+        'definition': 'Nitrite',
+        'rank': 37,
+        'term': 'NO₂⁻',
+        'id': 1640891562,
+        'image': None
+    }, {
+        'definition': 'Nitrate',
+        'rank': 38,
+        'term': 'NO₃⁻',
+        'id': 1640891563,
+        'image': None
+    }, {
+        'definition': 'Sulfite',
+        'rank': 39,
+        'term': 'SO₃⁻',
+        'id': 1640891564,
+        'image': None
+    }, {
+        'definition': 'Sulfate',
+        'rank': 40,
+        'term': 'SO₄²⁻',
+        'id': 1640891565,
+        'image': None
+    }, {
+        'definition': 'Hydrogen sulfate (bisulfate)',
+        'rank': 41,
+        'term': 'HSO₄⁻',
+        'id': 1640891566,
+        'image': None
+    }, {
+        'definition': 'Hydroxide',
+        'rank': 42,
+        'term': 'OH⁻',
+        'id': 1640891567,
+        'image': None
+    }, {
+        'definition': 'Cyanide',
+        'rank': 43,
+        'term': 'CN⁻',
+        'id': 1640891568,
+        'image': None
+    }, {
+        'definition': 'Phosphate',
+        'rank': 44,
+        'term': 'PO₄³⁻',
+        'id': 1640891569,
+        'image': None
+    }, {
+        'definition': 'Hydrogen phosphate',
+        'rank': 45,
+        'term': 'HPO₄²⁻',
+        'id': 1640891570,
+        'image': None
+    }, {
+        'definition': 'Dihydrogen phosphate',
+        'rank': 46,
+        'term': 'H₂PO₄⁻',
+        'id': 1640891571,
+        'image': None
+    }, {
+        'definition': 'Thiocyanate',
+        'rank': 47,
+        'term': 'NCS⁻',
+        'id': 1640891572,
+        'image': None
+    }, {
+        'definition': 'Carbonate',
+        'rank': 48,
+        'term': 'CO₃²⁻',
+        'id': 1640891573,
+        'image': None
+    }, {
+        'definition': 'Hydrogen carbonate (bicarbonate)',
+        'rank': 49,
+        'term': 'HCO₃⁻',
+        'id': 1640891574,
+        'image': None
+    }, {
+        'definition': 'Hypochlorite',
+        'rank': 50,
+        'term': 'ClO⁻',
+        'id': 1640891575,
+        'image': None
+    }, {
+        'definition': 'Chlorite',
+        'rank': 51,
+        'term': 'ClO²⁻',
+        'id': 1640891576,
+        'image': None
+    }, {
+        'definition': 'Chlorate',
+        'rank': 52,
+        'term': 'ClO₃⁻',
+        'id': 1640891577,
+        'image': None
+    }, {
+        'definition': 'Perchlorate',
+        'rank': 53,
+        'term': 'ClO₄',
+        'id': 1640891578,
+        'image': None
+    }, {
+        'definition': 'Hypobromite',
+        'rank': 54,
+        'term': 'BrO⁻',
+        'id': 1640891579,
+        'image': None
+    }, {
+        'definition': 'Bromite',
+        'rank': 55,
+        'term': 'BrO₂⁻',
+        'id': 1640891580,
+        'image': None
+    }, {
+        'definition': 'Bromate',
+        'rank': 56,
+        'term': 'BrO₃⁻',
+        'id': 1640891581,
+        'image': None
+    }, {
+        'definition': 'Perbromate',
+        'rank': 57,
+        'term': 'BrO₄⁻',
+        'id': 1640891582,
+        'image': None
+    }, {
+        'definition': 'Acetate',
+        'rank': 58,
+        'term': 'C₂H₃O₂⁻',
+        'id': 1640891583,
+        'image': None
+    }, {
+        'definition': 'Hypoiodite',
+        'rank': 59,
+        'term': 'IO⁻',
+        'id': 1640891584,
+        'image': None
+    }, {
+        'definition': 'Iodite',
+        'rank': 60,
+        'term': 'IO₂⁻',
+        'id': 1640891585,
+        'image': None
+    }, {
+        'definition': 'Iodate',
+        'rank': 61,
+        'term': 'IO₃⁻',
+        'id': 1640891586,
+        'image': None
+    }, {
+        'definition': 'Periodate',
+        'rank': 62,
+        'term': 'IO₄⁻',
+        'id': 1640891587,
+        'image': None
+    }, {
+        'definition': 'Permanganate',
+        'rank': 63,
+        'term': 'MnO₄⁻',
+        'id': 1640891588,
+        'image': None
+    }, {
+        'definition': 'Dichromate',
+        'rank': 64,
+        'term': 'Cr₂O₇²⁻',
+        'id': 1640891589,
+        'image': None
+    }, {
+        'definition': 'Chromate',
+        'rank': 65,
+        'term': 'CrO₄²⁻',
+        'id': 1640891590,
+        'image': None
+    }, {
+        'definition': 'Peroxide',
+        'rank': 66,
+        'term': 'O₂²⁻',
+        'id': 1640891591,
+        'image': None
+    }, {
+        'definition': 'Oxalate',
+        'rank': 67,
+        'term': 'C₂O₄²⁻',
+        'id': 1640891592,
+        'image': None
+    }, {
+        'definition': 'Amide',
+        'rank': 68,
+        'term': 'NH₂⁻',
+        'id': 1640891593,
+        'image': None
+    }, {
+        'definition': 'Borate',
+        'rank': 69,
+        'term': 'BO₃³⁻',
+        'id': 1640891594,
+        'image': None
+    }, {
+        'definition': 'Thiosulfate',
+        'rank': 70,
+        'term': 'S₂O₃²⁻',
+        'id': 1640891595,
+        'image': None
+    }],
+    'title': 'Polyatomic Ions',
+    'term_count': 71,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'chem',
+    'url': '/47302436/polyatomic-ions-flash-cards/',
+    'id': 47302436,
+    'published_date': 1409754521,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1409754521,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1409754521,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': 'In May 2014',
+    'terms': [{
+        'definition': 'was a painter, sculptor, architect, inventor, and mathematician',
+        'rank': 0,
+        'term': "1) Leonardo da Vinci was an excellent example of Renaissance Italy's social ideal because he...",
+        'id': 1499297021,
+        'image': None
+    }, {
+        'definition': 'attacked the abuses in the sale of indulgences, beginning the Portestant Reformation',
+        'rank': 1,
+        'term': "2) The publication of Martin Luther's Ninety-five Theses...",
+        'id': 1499297022,
+        'image': None
+    }, {
+        'definition': 'Are bound to the land',
+        'rank': 2,
+        'term': '3) Serfs were different from peasants in that serfs...',
+        'id': 1499297023,
+        'image': None
+    }, {
+        'definition': 'vassal',
+        'rank': 3,
+        'term': '4) Which of the following is NOT a part of the guild training system?',
+        'id': 1499297024,
+        'image': None
+    }, {
+        'definition': 'more doctors',
+        'rank': 4,
+        'term': '5) The population increased during the High Middle Ages for all of these reasons EXCEPT...',
+        'id': 1499297025,
+        'image': None
+    }, {
+        'definition': 'Inspiring the French with her faith.',
+        'rank': 5,
+        'term': "6) Joan of Arc brought the Hundred Years' War to a decisive turning point by...",
+        'id': 1499297026,
+        'image': None
+    }, {
+        'definition': 'Spanish mercenaries were let loose to sack the city of Rome.',
+        'rank': 6,
+        'term': '7) The war between France and Spain for control of Italy ended when the...',
+        'id': 1499297027,
+        'image': None
+    }, {
+        'definition': 'the investiture controversy',
+        'rank': 7,
+        'term': '8) The struggle between Henry the IV and Gregory VII was known as...',
+        'id': 1499297028,
+        'image': None
+    }, {
+        'definition': 'the court created by the catholic church to find an try heretics',
+        'rank': 8,
+        'term': '9) The Inquisition was...',
+        'id': 1499297029,
+        'image': None
+    }, {
+        'definition': 'Venice',
+        'rank': 9,
+        'term': '10) The city-state that was led by a group of wealthy merchant-aristocrats was...',
+        'id': 1499297030,
+        'image': None
+    }, {
+        'definition': 'Predestination',
+        'rank': 10,
+        'term': '11) Calvin agreed with Luther on most important doctrines except...',
+        'id': 1499297031,
+        'image': None
+    }, {
+        'definition': 'Isabella of Castile married Ferdinand of Aragon in 1469,',
+        'rank': 11,
+        'term': "12) Spain's two strongest kingdoms, Castile and Aragon, were united when...",
+        'id': 1499297032,
+        'image': None
+    }, {
+        'definition': 'oxen',
+        'rank': 12,
+        'term': '13) All of the following were goods that increased in availability due to the expansion of trade EXCEPT...',
+        'id': 1499297033,
+        'image': None
+    }, {
+        'definition': 'Human nature was self-centered.',
+        'rank': 13,
+        'term': '14) Machiavelli encouraged rulers and would-be rulers to believe that...',
+        'id': 1499297034,
+        'image': None
+    }, {
+        'definition': 'conquer lands in France',
+        'rank': 14,
+        'term': '15) King Henry VIII did all of the following EXCEPT...',
+        'id': 1499297035,
+        'image': None
+    }, {
+        'definition': 'the end of poverty',
+        'rank': 15,
+        'term': '16) The Renaissance was all of the following EXCEPT...',
+        'id': 1499297036,
+        'image': None
+    }, {
+        'definition': 'Romanesque',
+        'rank': 16,
+        'term': '17) Buildings that had long, round, stone, arched roofs; massive pillars; and massive walls were called...',
+        'id': 1499297037,
+        'image': None
+    }, {
+        'definition': 'The peasant foot soldiers won the main battles',
+        'rank': 17,
+        'term': "18) How did the nature of warfare change in the Hundred Years' War?",
+        'id': 1499297038,
+        'image': None
+    }, {
+        'definition': 'Set quality standards',
+        'rank': 18,
+        'term': '19) One function of craft guilds was to...',
+        'id': 1499297039,
+        'image': None
+    }, {
+        'definition': 'reaffirmed traditional Catholic teachings in opposition to Protestant beliefs',
+        'rank': 19,
+        'term': '20) The final decrees of the Council of Trent...',
+        'id': 1499297040,
+        'image': None
+    }, {
+        'definition': 'Purely tribal clans',
+        'rank': 20,
+        'term': '21) Traditional African political systems were mainly...',
+        'id': 1499297041,
+        'image': None
+    }, {
+        'definition': 'Transfer of European political ideas',
+        'rank': 21,
+        'term': '22) All of the following were impacts of the slave trade on African societies EXCEPT...',
+        'id': 1499297042,
+        'image': None
+    }, {
+        'definition': 'Side with the peasants',
+        'rank': 22,
+        'term': '23) The Second Estate did all of the following EXCEPT...',
+        'id': 1499297043,
+        'image': None
+    }, {
+        'definition': 'An armory and prison',
+        'rank': 23,
+        'term': '24) The Paris Bastille was...',
+        'id': 1499297044,
+        'image': None
+    }, {
+        'definition': 'Equal rights for women',
+        'rank': 24,
+        'term': '25) The Declaration of the Rights of Man and the Citizen Proclaimed all of the following EXCEPT...',
+        'id': 1499297045,
+        'image': None
+    }, {
+        'definition': 'Set up a limited monarchy',
+        'rank': 25,
+        'term': "26) The National Assembly's Constitution of 1791",
+        'id': 1499297046,
+        'image': None
+    }, {
+        'definition': 'loyalty to Prussia',
+        'rank': 26,
+        'term': '27) The Paris Commune demonstrated, then seized power for all of the following reasons EXCEPT...',
+        'id': 1499297047,
+        'image': None
+    }, {
+        'definition': 'Morocco',
+        'rank': 27,
+        'term': '28) The African empire of Songhai was devastated by invaders from...',
+        'id': 1499297048,
+        'image': None
+    }, {
+        'definition': 'islam',
+        'rank': 28,
+        'term': '29) New religious influences in North and West Africa came from...',
+        'id': 1499297049,
+        'image': None
+    }, {
+        'definition': 'african slave merchants',
+        'rank': 29,
+        'term': '30) Slaves from Africa were obtained by Europeans from...',
+        'id': 1499297050,
+        'image': None
+    }, {
+        'definition': 'Midway Island',
+        'rank': 30,
+        'term': '31) The turning point of the war in Asia that established U.S. naval superiority over Japan in the Pacific was the Battle of...',
+        'id': 1499297051,
+        'image': None
+    }, {
+        'definition': 'America would suffer heavy losses',
+        'rank': 31,
+        'term': '32) Truman wanted to avoid an invasion of Japan because he believed that...',
+        'id': 1499297052,
+        'image': None
+    }, {
+        'definition': 'Japanese domination of the Pacific.',
+        'rank': 32,
+        'term': '33) Japanese leaders miscalculated American intent and thought that the United States would accept...',
+        'id': 1499297053,
+        'image': None
+    }, {
+        'definition': 'Unconditional Surrender',
+        'rank': 33,
+        'term': '34) At the beginning of 1943, the Allies agreed to seek from the Axis Powers nothing short of...',
+        'id': 1499297054,
+        'image': None
+    }, {
+        'definition': 'Italy',
+        'rank': 34,
+        'term': '35) Which country was referred to as the "soft underbelly" of Europe by Winston Churchill?',
+        'id': 1499297055,
+        'image': None
+    }],
+    'title': 'History Final',
+    'term_count': 35,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'en',
+    'url': '/43634353/history-final-flash-cards/',
+    'id': 43634353,
+    'published_date': 1400869818,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1400869818,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1400869818,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': False,
+    'terms': [{
+        'definition': 'Lightning War; Fast-moving attack using all forces at once in a coordinated sweep—planes, parachutes, troops and tanks.',
+        'rank': 0,
+        'term': 'Blitzkrieg',
+        'id': 1478832674,
+        'image': None
+    }, {
+        'definition': 'The german air force',
+        'rank': 1,
+        'term': 'Luftwaffe',
+        'id': 1478832675,
+        'image': None
+    }, {
+        'definition': 'An area of France where the Allied soldiers landed in the major second front against Germany.',
+        'rank': 2,
+        'term': 'Normandy',
+        'id': 1478832676,
+        'image': None
+    }, {
+        'definition': 'French defensive line running along German border.',
+        'rank': 3,
+        'term': 'Maginot Line',
+        'id': 1478832677,
+        'image': None
+    }, {
+        'definition': 'American naval base in Hawaii, attacked by the Japanese on 7 December 1941.',
+        'rank': 4,
+        'term': 'Pearl Harbor',
+        'id': 1478832678,
+        'image': None
+    }, {
+        'definition': 'The turning point of the war in Asia that established U.S. naval superiority over Japan in the Pacific was the Battle of...',
+        'rank': 5,
+        'term': 'Midway Island.',
+        'id': 1478832679,
+        'image': None
+    }, {
+        'definition': 'Truman wanted to avoid an invasion of Japan because he believed that...',
+        'rank': 6,
+        'term': 'Americans would suffer heavy losses',
+        'id': 1478832680,
+        'image': None
+    }, {
+        'definition': 'Japanese leaders miscalculated American intent and thought that the United States would accept...',
+        'rank': 7,
+        'term': 'Japanese domination of the Pacific.',
+        'id': 1478832681,
+        'image': None
+    }, {
+        'definition': 'At the beginning of 1943, the Allies agreed to seek from the Axis Powers nothing short of...',
+        'rank': 8,
+        'term': 'Unconditional surrender.',
+        'id': 1478832682,
+        'image': None
+    }, {
+        'definition': 'Which country was referred to as the "soft underbelly" of Europe by Winston Churchill?',
+        'rank': 9,
+        'term': 'Italy',
+        'id': 1478832683,
+        'image': None
+    }],
+    'title': 'History WWII',
+    'term_count': 10,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'en',
+    'url': '/43122986/history-wwii-flash-cards/',
+    'id': 43122986,
+    'published_date': 1400189520,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1400189520,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1400189520,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': 'In April 2014',
+    'terms': [{
+        'definition': 'Frying Pan',
+        'rank': 0,
+        'term': 'El sárten',
+        'id': 1407348152,
+        'image': None
+    }, {
+        'definition': 'Griddle',
+        'rank': 1,
+        'term': 'La plancha',
+        'id': 1407348153,
+        'image': None
+    }, {
+        'definition': 'Spoon',
+        'rank': 2,
+        'term': 'La cuchara',
+        'id': 1407348154,
+        'image': None
+    }, {
+        'definition': 'Spatula',
+        'rank': 3,
+        'term': 'La espátula',
+        'id': 1407348155,
+        'image': None
+    }, {
+        'definition': 'To boil',
+        'rank': 4,
+        'term': 'Hervir',
+        'id': 1407348156,
+        'image': None
+    }, {
+        'definition': 'To fry',
+        'rank': 5,
+        'term': 'Freír',
+        'id': 1407348157,
+        'image': None
+    }, {
+        'definition': 'To Chop',
+        'rank': 6,
+        'term': 'Desmenuzar',
+        'id': 1407348158,
+        'image': None
+    }, {
+        'definition': 'To heat up',
+        'rank': 7,
+        'term': 'Calentar',
+        'id': 1407348159,
+        'image': None
+    }, {
+        'definition': 'Cup',
+        'rank': 8,
+        'term': 'Taza',
+        'id': 1407348160,
+        'image': None
+    }, {
+        'definition': 'Plate',
+        'rank': 9,
+        'term': 'El plato',
+        'id': 1407348161,
+        'image': None
+    }, {
+        'definition': 'Blender',
+        'rank': 10,
+        'term': 'La licuadora',
+        'id': 1407348162,
+        'image': None
+    }, {
+        'definition': 'To mix',
+        'rank': 11,
+        'term': 'Mezclar',
+        'id': 1407348163,
+        'image': None
+    }, {
+        'definition': 'To melt',
+        'rank': 12,
+        'term': 'Derretir',
+        'id': 1407348164,
+        'image': None
+    }, {
+        'definition': 'Spices',
+        'rank': 13,
+        'term': 'Las especias',
+        'id': 1407348165,
+        'image': None
+    }, {
+        'definition': 'Garlic',
+        'rank': 14,
+        'term': 'El ajo',
+        'id': 1407348166,
+        'image': None
+    }, {
+        'definition': 'Onion',
+        'rank': 15,
+        'term': 'La cebolla',
+        'id': 1407348167,
+        'image': None
+    }, {
+        'definition': 'Chicken',
+        'rank': 16,
+        'term': 'El pollo',
+        'id': 1407348168,
+        'image': None
+    }, {
+        'definition': 'Beef',
+        'rank': 17,
+        'term': 'La carne',
+        'id': 1407348169,
+        'image': None
+    }, {
+        'definition': 'Salt',
+        'rank': 18,
+        'term': 'La sal',
+        'id': 1407348170,
+        'image': None
+    }, {
+        'definition': 'Black Pepper',
+        'rank': 19,
+        'term': 'La pimienta',
+        'id': 1407348171,
+        'image': None
+    }],
+    'title': 'Food Vocab',
+    'term_count': 20,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'es',
+    'url': '/41219112/food-vocab-flash-cards/',
+    'id': 41219112,
+    'published_date': 1398115068,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1398115068,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1398115068,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': False,
+    'terms': [{
+        'definition': 'to ask',
+        'rank': 0,
+        'term': 'preguntar',
+        'id': 1394389736,
+        'image': None
+    }, {
+        'definition': 'to touch',
+        'rank': 1,
+        'term': 'tocar',
+        'id': 1394389737,
+        'image': None
+    }, {
+        'definition': 'to recognize',
+        'rank': 2,
+        'term': 'reconocer',
+        'id': 1394389738,
+        'image': None
+    }, {
+        'definition': 'to study',
+        'rank': 3,
+        'term': 'estudiar',
+        'id': 1394389739,
+        'image': None
+    }, {
+        'definition': 'to reach',
+        'rank': 4,
+        'term': 'alcanzar',
+        'id': 1394389740,
+        'image': None
+    }, {
+        'definition': 'to be born',
+        'rank': 5,
+        'term': 'nacer',
+        'id': 1394389741,
+        'image': None
+    }, {
+        'definition': 'to direct',
+        'rank': 6,
+        'term': 'dirigir',
+        'id': 1394389742,
+        'image': None
+    }, {
+        'definition': 'to run',
+        'rank': 7,
+        'term': 'correr',
+        'id': 1394389743,
+        'image': None
+    }, {
+        'definition': 'to use',
+        'rank': 8,
+        'term': 'utilizar',
+        'id': 1394389744,
+        'image': None
+    }, {
+        'definition': 'to pay',
+        'rank': 9,
+        'term': 'pagar',
+        'id': 1394389745,
+        'image': None
+    }, {
+        'definition': 'i am',
+        'rank': 10,
+        'term': 'soy',
+        'id': 1394389746,
+        'image': None
+    }, {
+        'definition': 'his',
+        'rank': 11,
+        'term': 'su',
+        'id': 1394389747,
+        'image': None
+    }, {
+        'definition': 'also',
+        'rank': 12,
+        'term': 'también',
+        'id': 1394389748,
+        'image': None
+    }, {
+        'definition': 'i have',
+        'rank': 13,
+        'term': 'tengo',
+        'id': 1394389749,
+        'image': None
+    }, {
+        'definition': 'i have to',
+        'rank': 14,
+        'term': 'tengo que',
+        'id': 1394389750,
+        'image': None
+    }, {
+        'definition': 'time',
+        'rank': 15,
+        'term': 'tiempo',
+        'id': 1394389751,
+        'image': None
+    }, {
+        'definition': 'you have',
+        'rank': 16,
+        'term': 'tiene',
+        'id': 1394389752,
+        'image': None
+    }, {
+        'definition': 'kind',
+        'rank': 17,
+        'term': 'tipo',
+        'id': 1394389753,
+        'image': None
+    }, {
+        'definition': 'all',
+        'rank': 18,
+        'term': 'todo',
+        'id': 1394389754,
+        'image': None
+    }, {
+        'definition': 'you',
+        'rank': 19,
+        'term': 'tú',
+        'id': 1394389755,
+        'image': None
+    }],
+    'title': 'Vocab 9',
+    'term_count': 20,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'es',
+    'url': '/40872901/vocab-9-flash-cards/',
+    'id': 40872901,
+    'published_date': 1397568381,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1397568381,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1397568381,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': False,
+    'terms': [{
+        'definition': 'the middle class, typically with reference to its perceived materialistic values or conventional attitudes.',
+        'rank': 0,
+        'term': 'Bourgeoisie',
+        'id': 1379453703,
+        'image': None
+    }, {
+        'definition': 'obligations of peasants to noble land-lords that survived into the modern era',
+        'rank': 1,
+        'term': 'Relics of Feudalism',
+        'id': 1379453704,
+        'image': None
+    }, {
+        'definition': 'In the French Revolution, a radical group made up of Parisian wage-earners, and small shopkeepers who wanted a greater voice in government, lower prices, and an end of food shortages',
+        'rank': 2,
+        'term': 'sans-culottes',
+        'id': 1379453705,
+        'image': None
+    }, {
+        'definition': '97% of the population (the rest of France) They consisted of the bourgeoisie, the san-culottes and the peasants; they paid high taxes and had no special privileges',
+        'rank': 3,
+        'term': 'Third Estate',
+        'id': 1379453706,
+        'image': None
+    }, {
+        'definition': "France's traditional national assembly with representatives of the three estates, or classes, in French society: the clergy, nobility, and commoners. The calling of the Estates General in 1789 led to the French Revolution.",
+        'rank': 4,
+        'term': 'Estates- General',
+        'id': 1379453707,
+        'image': None
+    }, {
+        'definition': 'The second class of French society made up of the noblility',
+        'rank': 5,
+        'term': 'Second Estate',
+        'id': 1379453708,
+        'image': None
+    }, {
+        'definition': 'an armory and prison',
+        'rank': 6,
+        'term': 'Paris Bastille',
+        'id': 1379453709,
+        'image': None
+    }, {
+        'definition': "A document which was similar to the American Declaration of Independence; it preserved French citizens' natural rights.",
+        'rank': 7,
+        'term': 'The Declaration of the Rights of Man and the Citizen',
+        'id': 1379453710,
+        'image': None
+    }, {
+        'definition': 'A group of Third Estate delegates that broke ties with the Estates General. Drafted a constitution for France at the Oath of the Tennis court. Marked the first stage of the revolution.',
+        'rank': 8,
+        'term': "The National Assembly's Constitution of 1791",
+        'id': 1379453711,
+        'image': None
+    }, {
+        'definition': 'group formed by smaller radical political groups in Paris who took Louis captive',
+        'rank': 9,
+        'term': 'The Paris Commune',
+        'id': 1379453712,
+        'image': None
+    }],
+    'title': 'History 1',
+    'term_count': 10,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'en',
+    'url': '/40446796/history-1-flash-cards/',
+    'id': 40446796,
+    'published_date': 1397004849,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1397004849,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1397004849,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': False,
+    'terms': [{
+        'definition': 'I can',
+        'rank': 0,
+        'term': 'puedo',
+        'id': 1375068427,
+        'image': None
+    }, {
+        'definition': 'that',
+        'rank': 1,
+        'term': 'que',
+        'id': 1375068428,
+        'image': None
+    }, {
+        'definition': 'what',
+        'rank': 2,
+        'term': 'qué',
+        'id': 1375068429,
+        'image': None
+    }, {
+        'definition': 'who',
+        'rank': 3,
+        'term': 'quien',
+        'id': 1375068430,
+        'image': None
+    }, {
+        'definition': 'I know',
+        'rank': 4,
+        'term': 'sé',
+        'id': 1375068431,
+        'image': None
+    }, {
+        'definition': 'such',
+        'rank': 5,
+        'term': 'semejante',
+        'id': 1375068432,
+        'image': None
+    }, {
+        'definition': 'if',
+        'rank': 6,
+        'term': 'si',
+        'id': 1375068433,
+        'image': None
+    }, {
+        'definition': 'yes',
+        'rank': 7,
+        'term': 'sí',
+        'id': 1375068434,
+        'image': None
+    }, {
+        'definition': 'always',
+        'rank': 8,
+        'term': 'siempre',
+        'id': 1375068435,
+        'image': None
+    }, {
+        'definition': 'only',
+        'rank': 9,
+        'term': 'solo',
+        'id': 1375068436,
+        'image': None
+    }, {
+        'definition': 'to form',
+        'rank': 10,
+        'term': 'formar',
+        'id': 1375068437,
+        'image': None
+    }, {
+        'definition': 'to bring',
+        'rank': 11,
+        'term': 'traer',
+        'id': 1375068438,
+        'image': None
+    }, {
+        'definition': 'to divide',
+        'rank': 12,
+        'term': 'partir',
+        'id': 1375068439,
+        'image': None
+    }, {
+        'definition': 'to die',
+        'rank': 13,
+        'term': 'morir',
+        'id': 1375068440,
+        'image': None
+    }, {
+        'definition': 'to accept',
+        'rank': 14,
+        'term': 'aceptar',
+        'id': 1375068441,
+        'image': None
+    }, {
+        'definition': 'to achieve',
+        'rank': 15,
+        'term': 'realizar',
+        'id': 1375068442,
+        'image': None
+    }, {
+        'definition': 'to suppose',
+        'rank': 16,
+        'term': 'suponer',
+        'id': 1375068443,
+        'image': None
+    }, {
+        'definition': 'to understand',
+        'rank': 17,
+        'term': 'comprender',
+        'id': 1375068444,
+        'image': None
+    }, {
+        'definition': 'to obtain',
+        'rank': 18,
+        'term': 'lograr',
+        'id': 1375068445,
+        'image': None
+    }, {
+        'definition': 'to explain',
+        'rank': 19,
+        'term': 'explicar',
+        'id': 1375068446,
+        'image': None
+    }],
+    'title': 'Vocab 8',
+    'term_count': 20,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'es',
+    'url': '/40312952/vocab-8-flash-cards/',
+    'id': 40312952,
+    'published_date': 1396898317,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1396898317,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1396898317,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': False,
+    'terms': [{
+        'definition': 'other',
+        'rank': 0,
+        'term': 'otro',
+        'id': 1363692775,
+        'image': None
+    }, {
+        'definition': 'in order to',
+        'rank': 1,
+        'term': 'para',
+        'id': 1363692776,
+        'image': None
+    }, {
+        'definition': 'but',
+        'rank': 2,
+        'term': 'pero',
+        'id': 1363692777,
+        'image': None
+    }, {
+        'definition': 'I think',
+        'rank': 3,
+        'term': 'pienso',
+        'id': 1363692778,
+        'image': None
+    }, {
+        'definition': 'for',
+        'rank': 4,
+        'term': 'por',
+        'id': 1363692779,
+        'image': None
+    }, {
+        'definition': 'please',
+        'rank': 5,
+        'term': 'por favor',
+        'id': 1363692780,
+        'image': None
+    }, {
+        'definition': 'why',
+        'rank': 6,
+        'term': 'por qué',
+        'id': 1363692781,
+        'image': None
+    }, {
+        'definition': 'because',
+        'rank': 7,
+        'term': 'porque',
+        'id': 1363692782,
+        'image': None
+    }, {
+        'definition': 'first',
+        'rank': 8,
+        'term': 'primero',
+        'id': 1363692783,
+        'image': None
+    }, {
+        'definition': 'you can',
+        'rank': 9,
+        'term': 'puede',
+        'id': 1363692784,
+        'image': None
+    }, {
+        'definition': 'to fall',
+        'rank': 10,
+        'term': 'caer',
+        'id': 1363833613,
+        'image': None
+    }, {
+        'definition': 'to change',
+        'rank': 11,
+        'term': 'cambiar',
+        'id': 1363833615,
+        'image': None
+    }, {
+        'definition': 'to introduce',
+        'rank': 12,
+        'term': 'presentar',
+        'id': 1363833617,
+        'image': None
+    }, {
+        'definition': 'to create',
+        'rank': 13,
+        'term': 'crear',
+        'id': 1363833619,
+        'image': None
+    }, {
+        'definition': 'to open',
+        'rank': 14,
+        'term': 'abrir',
+        'id': 1363833621,
+        'image': None
+    }, {
+        'definition': 'to consider',
+        'rank': 15,
+        'term': 'considerar',
+        'id': 1363833623,
+        'image': None
+    }, {
+        'definition': 'to hear',
+        'rank': 16,
+        'term': 'oír',
+        'id': 1363833625,
+        'image': None
+    }, {
+        'definition': 'to finish',
+        'rank': 17,
+        'term': 'acabar',
+        'id': 1363833627,
+        'image': None
+    }, {
+        'definition': 'to convert',
+        'rank': 18,
+        'term': 'convertir',
+        'id': 1363833629,
+        'image': None
+    }, {
+        'definition': 'to win',
+        'rank': 19,
+        'term': 'ganar',
+        'id': 1363833631,
+        'image': None
+    }],
+    'title': 'Spanish Vocab 7',
+    'term_count': 20,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'es',
+    'url': '/39989751/spanish-vocab-7-flash-cards/',
+    'id': 39989751,
+    'published_date': 1396470579,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1396634644,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1396470579,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': 'In March 2014',
+    'terms': [{
+        'definition': 'much',
+        'rank': 0,
+        'term': 'mucho',
+        'id': 1347096663,
+        'image': None
+    }, {
+        'definition': 'very',
+        'rank': 1,
+        'term': 'muy',
+        'id': 1347096664,
+        'image': None
+    }, {
+        'definition': 'many',
+        'rank': 2,
+        'term': 'muchos',
+        'id': 1347096665,
+        'image': None
+    }, {
+        'definition': 'I need',
+        'rank': 3,
+        'term': 'necesito',
+        'id': 1347096666,
+        'image': None
+    }, {
+        'definition': 'no',
+        'rank': 4,
+        'term': 'no',
+        'id': 1347096667,
+        'image': None
+    }, {
+        'definition': 'we',
+        'rank': 5,
+        'term': 'nosotros',
+        'id': 1347096668,
+        'image': None
+    }, {
+        'definition': 'our',
+        'rank': 6,
+        'term': 'nuestra',
+        'id': 1347096669,
+        'image': None
+    }, {
+        'definition': 'new',
+        'rank': 7,
+        'term': 'nuevo',
+        'id': 1347096670,
+        'image': None
+    }, {
+        'definition': 'or',
+        'rank': 8,
+        'term': 'o',
+        'id': 1347096671,
+        'image': None
+    }, {
+        'definition': 'again',
+        'rank': 9,
+        'term': 'otra ves',
+        'id': 1347096672,
+        'image': None
+    }, {
+        'definition': 'to permit',
+        'rank': 10,
+        'term': 'permitir',
+        'id': 1347096673,
+        'image': None
+    }, {
+        'definition': 'to appear',
+        'rank': 11,
+        'term': 'aparecer',
+        'id': 1347096674,
+        'image': None
+    }, {
+        'definition': 'to get',
+        'rank': 12,
+        'term': 'conseguir',
+        'id': 1347096675,
+        'image': None
+    }, {
+        'definition': 'to begin',
+        'rank': 13,
+        'term': 'comenzar',
+        'id': 1347096676,
+        'image': None
+    }, {
+        'definition': 'to serve',
+        'rank': 14,
+        'term': 'servir',
+        'id': 1347096677,
+        'image': None
+    }, {
+        'definition': 'to take out',
+        'rank': 15,
+        'term': 'sacar',
+        'id': 1347096678,
+        'image': None
+    }, {
+        'definition': 'to need',
+        'rank': 16,
+        'term': 'necesitar',
+        'id': 1347096679,
+        'image': None
+    }, {
+        'definition': 'to maintain',
+        'rank': 17,
+        'term': 'mantener',
+        'id': 1347096681,
+        'image': None
+    }, {
+        'definition': 'to turn out',
+        'rank': 18,
+        'term': 'resultar',
+        'id': 1347096683,
+        'image': None
+    }, {
+        'definition': 'to read',
+        'rank': 19,
+        'term': 'leer',
+        'id': 1347096685,
+        'image': None
+    }],
+    'title': 'Spanish Vocab 6',
+    'term_count': 20,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'es',
+    'url': '/39505754/spanish-vocab-6-flash-cards/',
+    'id': 39505754,
+    'published_date': 1395879674,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1395881517,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1395879674,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': 'In February 2014',
+    'terms': [{
+        'definition': 'to want',
+        'rank': 0,
+        'term': 'querer',
+        'id': 1283312693,
+        'image': None
+    }, {
+        'definition': 'to arrive',
+        'rank': 1,
+        'term': 'llegar',
+        'id': 1283312694,
+        'image': None
+    }, {
+        'definition': 'to pass',
+        'rank': 2,
+        'term': 'pasar',
+        'id': 1283312695,
+        'image': None
+    }, {
+        'definition': 'to owe',
+        'rank': 3,
+        'term': 'deber',
+        'id': 1283312696,
+        'image': None
+    }, {
+        'definition': 'to put',
+        'rank': 4,
+        'term': 'poner',
+        'id': 1283312697,
+        'image': None
+    }, {
+        'definition': 'to appear',
+        'rank': 5,
+        'term': 'parecer',
+        'id': 1283312698,
+        'image': None
+    }, {
+        'definition': 'to stay',
+        'rank': 6,
+        'term': 'quedar',
+        'id': 1283312699,
+        'image': None
+    }, {
+        'definition': 'to believe',
+        'rank': 7,
+        'term': 'creer',
+        'id': 1283312700,
+        'image': None
+    }, {
+        'definition': 'to speak',
+        'rank': 8,
+        'term': 'hablar',
+        'id': 1283312701,
+        'image': None
+    }, {
+        'definition': 'to carry',
+        'rank': 9,
+        'term': 'llevar',
+        'id': 1283312702,
+        'image': None
+    }, {
+        'definition': 'like this, like that',
+        'rank': 10,
+        'term': 'así',
+        'id': 1283312703,
+        'image': None
+    }, {
+        'definition': 'still',
+        'rank': 11,
+        'term': 'aún',
+        'id': 1283312704,
+        'image': None
+    }, {
+        'definition': 'good',
+        'rank': 12,
+        'term': 'bueno',
+        'id': 1283312705,
+        'image': None
+    }, {
+        'definition': 'almost',
+        'rank': 13,
+        'term': 'casi',
+        'id': 1283312706,
+        'image': None
+    }, {
+        'definition': 'like',
+        'rank': 14,
+        'term': 'como',
+        'id': 1283312707,
+        'image': None
+    }, {
+        'definition': 'how',
+        'rank': 15,
+        'term': 'cómo',
+        'id': 1283312708,
+        'image': None
+    }, {
+        'definition': 'with',
+        'rank': 16,
+        'term': 'con',
+        'id': 1283312709,
+        'image': None
+    }, {
+        'definition': 'thing',
+        'rank': 17,
+        'term': 'cosa',
+        'id': 1283312710,
+        'image': None
+    }, {
+        'definition': 'which',
+        'rank': 18,
+        'term': 'cual',
+        'id': 1283312711,
+        'image': None
+    }, {
+        'definition': 'when',
+        'rank': 19,
+        'term': 'cuando',
+        'id': 1283312712,
+        'image': None
+    }, {
+        'definition': 'to be',
+        'rank': 20,
+        'term': 'ser',
+        'id': 1283312713,
+        'image': None
+    }, {
+        'definition': 'to be',
+        'rank': 21,
+        'term': 'estar',
+        'id': 1283312714,
+        'image': None
+    }, {
+        'definition': 'to have',
+        'rank': 22,
+        'term': 'tener',
+        'id': 1283312715,
+        'image': None
+    }, {
+        'definition': 'to do',
+        'rank': 23,
+        'term': 'hacer',
+        'id': 1283312716,
+        'image': None
+    }, {
+        'definition': 'to be able to',
+        'rank': 24,
+        'term': 'poder',
+        'id': 1283312717,
+        'image': None
+    }, {
+        'definition': 'to say',
+        'rank': 25,
+        'term': 'decir',
+        'id': 1283312718,
+        'image': None
+    }, {
+        'definition': 'to go',
+        'rank': 26,
+        'term': 'ir',
+        'id': 1283312719,
+        'image': None
+    }, {
+        'definition': 'to see',
+        'rank': 27,
+        'term': 'ver',
+        'id': 1283312720,
+        'image': None
+    }, {
+        'definition': 'to give',
+        'rank': 28,
+        'term': 'dar',
+        'id': 1283312721,
+        'image': None
+    }, {
+        'definition': 'to know',
+        'rank': 29,
+        'term': 'saber',
+        'id': 1283312722,
+        'image': None
+    }, {
+        'definition': 'sometimes',
+        'rank': 30,
+        'term': 'a veces',
+        'id': 1283312723,
+        'image': None
+    }, {
+        'definition': 'bye',
+        'rank': 31,
+        'term': 'adiós',
+        'id': 1283312724,
+        'image': None
+    }, {
+        'definition': 'out',
+        'rank': 32,
+        'term': 'afuera',
+        'id': 1283312725,
+        'image': None
+    }, {
+        'definition': 'now',
+        'rank': 33,
+        'term': 'ahora',
+        'id': 1283312726,
+        'image': None
+    }, {
+        'definition': 'at the',
+        'rank': 34,
+        'term': 'al',
+        'id': 1283312727,
+        'image': None
+    }, {
+        'definition': 'friend',
+        'rank': 35,
+        'term': 'amigo',
+        'id': 1283312728,
+        'image': None
+    }, {
+        'definition': 'I love',
+        'rank': 36,
+        'term': 'amo',
+        'id': 1283312729,
+        'image': None
+    }, {
+        'definition': 'before',
+        'rank': 37,
+        'term': 'antes de',
+        'id': 1283312730,
+        'image': None
+    }, {
+        'definition': 'here',
+        'rank': 38,
+        'term': 'aquí',
+        'id': 1283312731,
+        'image': None
+    }, {
+        'definition': 'up',
+        'rank': 39,
+        'term': 'arriba',
+        'id': 1283312732,
+        'image': None
+    }, {
+        'definition': 'to leave',
+        'rank': 40,
+        'term': 'dejar',
+        'id': 1283312733,
+        'image': None
+    }, {
+        'definition': 'to follow',
+        'rank': 41,
+        'term': 'seguir',
+        'id': 1283312734,
+        'image': None
+    }, {
+        'definition': 'to find',
+        'rank': 42,
+        'term': 'encontrar',
+        'id': 1283312735,
+        'image': None
+    }, {
+        'definition': 'to call',
+        'rank': 43,
+        'term': 'llamar',
+        'id': 1283312736,
+        'image': None
+    }, {
+        'definition': 'to come',
+        'rank': 44,
+        'term': 'venir',
+        'id': 1283312737,
+        'image': None
+    }, {
+        'definition': 'to think',
+        'rank': 45,
+        'term': 'pensar',
+        'id': 1283312738,
+        'image': None
+    }, {
+        'definition': 'to go out',
+        'rank': 46,
+        'term': 'salir',
+        'id': 1283312739,
+        'image': None
+    }, {
+        'definition': 'to return',
+        'rank': 47,
+        'term': 'volver',
+        'id': 1283312740,
+        'image': None
+    }, {
+        'definition': 'to take',
+        'rank': 48,
+        'term': 'tomar',
+        'id': 1283312741,
+        'image': None
+    }, {
+        'definition': 'to know',
+        'rank': 49,
+        'term': 'conocer',
+        'id': 1283312742,
+        'image': None
+    }, {
+        'definition': 'boy',
+        'rank': 50,
+        'term': 'chico',
+        'id': 1283312743,
+        'image': None
+    }, {
+        'definition': 'from',
+        'rank': 51,
+        'term': 'de',
+        'id': 1283312744,
+        'image': None
+    }, {
+        'definition': 'under',
+        'rank': 52,
+        'term': 'debajo',
+        'id': 1283312745,
+        'image': None
+    }, {
+        'definition': 'to say',
+        'rank': 53,
+        'term': 'decir',
+        'id': 1283312746,
+        'image': None
+    }, {
+        'definition': 'after',
+        'rank': 54,
+        'term': 'después de',
+        'id': 1283312747,
+        'image': None
+    }, {
+        'definition': 'where is it',
+        'rank': 55,
+        'term': 'dónde está',
+        'id': 1283312748,
+        'image': None
+    }, {
+        'definition': 'during',
+        'rank': 56,
+        'term': 'durante',
+        'id': 1283312749,
+        'image': None
+    }, {
+        'definition': 'he',
+        'rank': 57,
+        'term': 'él',
+        'id': 1283312750,
+        'image': None
+    }, {
+        'definition': 'she',
+        'rank': 58,
+        'term': 'ella',
+        'id': 1283312751,
+        'image': None
+    }, {
+        'definition': 'they',
+        'rank': 59,
+        'term': 'ellos',
+        'id': 1283312752,
+        'image': None
+    }, {
+        'definition': 'in',
+        'rank': 60,
+        'term': 'en',
+        'id': 1283312753,
+        'image': None
+    }, {
+        'definition': 'find',
+        'rank': 61,
+        'term': 'encontrar',
+        'id': 1283312754,
+        'image': None
+    }, {
+        'definition': 'is',
+        'rank': 62,
+        'term': 'es',
+        'id': 1283312755,
+        'image': None
+    }, {
+        'definition': 'this',
+        'rank': 63,
+        'term': 'esta',
+        'id': 1283312756,
+        'image': None
+    }, {
+        'definition': 'happy',
+        'rank': 64,
+        'term': 'feliz',
+        'id': 1283312757,
+        'image': None
+    }, {
+        'definition': 'people',
+        'rank': 65,
+        'term': 'gente',
+        'id': 1283312758,
+        'image': None
+    }, {
+        'definition': 'big',
+        'rank': 66,
+        'term': 'grande',
+        'id': 1283312759,
+        'image': None
+    }, {
+        'definition': 'to do',
+        'rank': 67,
+        'term': 'hacer',
+        'id': 1283312760,
+        'image': None
+    }, {
+        'definition': 'there is',
+        'rank': 68,
+        'term': 'hay',
+        'id': 1283312761,
+        'image': None
+    }, {
+        'definition': 'hello',
+        'rank': 69,
+        'term': 'hola',
+        'id': 1283312762,
+        'image': None
+    }, {
+        'definition': 'to live',
+        'rank': 70,
+        'term': 'vivir',
+        'id': 1283312763,
+        'image': None
+    }, {
+        'definition': 'to feel',
+        'rank': 71,
+        'term': 'sentir',
+        'id': 1283312764,
+        'image': None
+    }, {
+        'definition': 'to treat',
+        'rank': 72,
+        'term': 'tratar',
+        'id': 1283312765,
+        'image': None
+    }, {
+        'definition': 'to watch',
+        'rank': 73,
+        'term': 'mirar',
+        'id': 1283312766,
+        'image': None
+    }, {
+        'definition': 'to count',
+        'rank': 74,
+        'term': 'contar',
+        'id': 1283312767,
+        'image': None
+    }, {
+        'definition': 'to hope',
+        'rank': 75,
+        'term': 'esperar',
+        'id': 1283312768,
+        'image': None
+    }, {
+        'definition': 'to start',
+        'rank': 76,
+        'term': 'empezar',
+        'id': 1283312769,
+        'image': None
+    }, {
+        'definition': 'to search',
+        'rank': 77,
+        'term': 'buscar',
+        'id': 1283312770,
+        'image': None
+    }, {
+        'definition': 'to exist',
+        'rank': 78,
+        'term': 'existir',
+        'id': 1283312771,
+        'image': None
+    }, {
+        'definition': 'to enter',
+        'rank': 79,
+        'term': 'entrar',
+        'id': 1283312772,
+        'image': None
+    }, {
+        'definition': 'to work',
+        'rank': 80,
+        'term': 'trabajar',
+        'id': 1283312773,
+        'image': None
+    }, {
+        'definition': 'to write',
+        'rank': 81,
+        'term': 'escribir',
+        'id': 1283312774,
+        'image': None
+    }, {
+        'definition': 'to lose',
+        'rank': 82,
+        'term': 'perder',
+        'id': 1283312775,
+        'image': None
+    }, {
+        'definition': 'to produce',
+        'rank': 83,
+        'term': 'producir',
+        'id': 1283312776,
+        'image': None
+    }, {
+        'definition': 'to occur',
+        'rank': 84,
+        'term': 'ocurrir',
+        'id': 1283312777,
+        'image': None
+    }, {
+        'definition': 'to understand',
+        'rank': 85,
+        'term': 'entender',
+        'id': 1283312778,
+        'image': None
+    }, {
+        'definition': 'to ask for',
+        'rank': 86,
+        'term': 'pedir',
+        'id': 1283312779,
+        'image': None
+    }, {
+        'definition': 'to receive',
+        'rank': 87,
+        'term': 'recibir',
+        'id': 1283312780,
+        'image': None
+    }, {
+        'definition': 'to remember',
+        'rank': 88,
+        'term': 'recordar',
+        'id': 1283312781,
+        'image': None
+    }, {
+        'definition': 'to finish',
+        'rank': 89,
+        'term': 'terminar',
+        'id': 1283312782,
+        'image': None
+    }, {
+        'definition': 'to go',
+        'rank': 90,
+        'term': 'ir',
+        'id': 1283312783,
+        'image': None
+    }, {
+        'definition': 'most',
+        'rank': 91,
+        'term': 'la mayoría',
+        'id': 1283312784,
+        'image': None
+    }, {
+        'definition': 'you like',
+        'rank': 92,
+        'term': 'le gusta',
+        'id': 1283312785,
+        'image': None
+    }, {
+        'definition': 'then',
+        'rank': 93,
+        'term': 'luego',
+        'id': 1283312786,
+        'image': None
+    }, {
+        'definition': 'place',
+        'rank': 94,
+        'term': 'lugar',
+        'id': 1283312787,
+        'image': None
+    }, {
+        'definition': 'more',
+        'rank': 95,
+        'term': 'más',
+        'id': 1283312788,
+        'image': None
+    }, {
+        'definition': 'I like',
+        'rank': 96,
+        'term': 'me gusta',
+        'id': 1283312789,
+        'image': None
+    }, {
+        'definition': 'my',
+        'rank': 97,
+        'term': 'mi',
+        'id': 1283312790,
+        'image': None
+    }, {
+        'definition': 'same',
+        'rank': 98,
+        'term': 'mismo',
+        'id': 1283312791,
+        'image': None
+    }, {
+        'definition': 'often',
+        'rank': 99,
+        'term': 'muchas veces',
+        'id': 1283312792,
+        'image': None
+    }],
+    'title': 'Spanish 1-5',
+    'term_count': 100,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'es',
+    'url': '/37599509/spanish-1-5-flash-cards/',
+    'id': 37599509,
+    'published_date': 1393659250,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '...',
+    'has_images': False,
+    'modified_date': 1393663752,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1393659250,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': False,
+    'terms': [{
+        'definition': 'To go out',
+        'rank': 0,
+        'term': 'salir',
+        'id': 1279873133,
+        'image': None
+    }, {
+        'definition': 'To take',
+        'rank': 1,
+        'term': 'tomar',
+        'id': 1279873134,
+        'image': None
+    }, {
+        'definition': 'to live',
+        'rank': 2,
+        'term': 'vivir',
+        'id': 1279873135,
+        'image': None
+    }, {
+        'definition': 'Out',
+        'rank': 3,
+        'term': 'afuera',
+        'id': 1279873136,
+        'image': None
+    }, {
+        'definition': 'Under',
+        'rank': 4,
+        'term': 'debajo',
+        'id': 1279873137,
+        'image': None
+    }, {
+        'definition': 'after',
+        'rank': 5,
+        'term': 'despues de',
+        'id': 1279873138,
+        'image': None
+    }, {
+        'definition': 'people',
+        'rank': 6,
+        'term': 'gente',
+        'id': 1279873139,
+        'image': None
+    }, {
+        'definition': 'Same',
+        'rank': 7,
+        'term': 'mismo',
+        'id': 1279873140,
+        'image': None
+    }, {
+        'definition': 'Before',
+        'rank': 8,
+        'term': 'antes de',
+        'id': 1279873141,
+        'image': None
+    }, {
+        'definition': 'To think',
+        'rank': 9,
+        'term': 'pensar',
+        'id': 1279873142,
+        'image': None
+    }],
+    'title': 'Temp Spanish',
+    'term_count': 10,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'es',
+    'url': '/37493285/temp-spanish-flash-cards/',
+    'id': 37493285,
+    'published_date': 1393534440,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1393534440,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1393534440,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': False,
+    'terms': [{
+        'definition': 'to work',
+        'rank': 0,
+        'term': 'trabajar',
+        'id': 1256974077,
+        'image': None
+    }, {
+        'definition': 'to write',
+        'rank': 1,
+        'term': 'escribir',
+        'id': 1256974078,
+        'image': None
+    }, {
+        'definition': 'to lose',
+        'rank': 2,
+        'term': 'perder',
+        'id': 1256974079,
+        'image': None
+    }, {
+        'definition': 'to produce',
+        'rank': 3,
+        'term': 'producir',
+        'id': 1256974080,
+        'image': None
+    }, {
+        'definition': 'to occur',
+        'rank': 4,
+        'term': 'ocurrir',
+        'id': 1256974081,
+        'image': None
+    }, {
+        'definition': 'to understand',
+        'rank': 5,
+        'term': 'entender',
+        'id': 1256974082,
+        'image': None
+    }, {
+        'definition': 'to ask for',
+        'rank': 6,
+        'term': 'pedir',
+        'id': 1256974083,
+        'image': None
+    }, {
+        'definition': 'to receive',
+        'rank': 7,
+        'term': 'recibir',
+        'id': 1256974084,
+        'image': None
+    }, {
+        'definition': 'to remember',
+        'rank': 8,
+        'term': 'recordar',
+        'id': 1256974085,
+        'image': None
+    }, {
+        'definition': 'to finish',
+        'rank': 9,
+        'term': 'terminar',
+        'id': 1256974086,
+        'image': None
+    }, {
+        'definition': 'to go',
+        'rank': 10,
+        'term': 'ir',
+        'id': 1256974087,
+        'image': None
+    }, {
+        'definition': 'most',
+        'rank': 11,
+        'term': 'la mayoría',
+        'id': 1256974088,
+        'image': None
+    }, {
+        'definition': 'you like',
+        'rank': 12,
+        'term': 'le gusta',
+        'id': 1256974089,
+        'image': None
+    }, {
+        'definition': 'then',
+        'rank': 13,
+        'term': 'luego',
+        'id': 1256974090,
+        'image': None
+    }, {
+        'definition': 'place',
+        'rank': 14,
+        'term': 'lugar',
+        'id': 1256974091,
+        'image': None
+    }, {
+        'definition': 'more',
+        'rank': 15,
+        'term': 'más',
+        'id': 1256974092,
+        'image': None
+    }, {
+        'definition': 'I like',
+        'rank': 16,
+        'term': 'me gusta',
+        'id': 1256974093,
+        'image': None
+    }, {
+        'definition': 'my',
+        'rank': 17,
+        'term': 'mi',
+        'id': 1256974094,
+        'image': None
+    }, {
+        'definition': 'same',
+        'rank': 18,
+        'term': 'mismo',
+        'id': 1256974095,
+        'image': None
+    }, {
+        'definition': 'often',
+        'rank': 19,
+        'term': 'muchas veces',
+        'id': 1256974096,
+        'image': None
+    }],
+    'title': 'Spanish Vocab 5',
+    'term_count': 20,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'es',
+    'url': '/36797643/spanish-vocab-5-flash-cards/',
+    'id': 36797643,
+    'published_date': 1392837018,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1392837018,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1392837018,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': False,
+    'terms': [{
+        'definition': 'in',
+        'rank': 0,
+        'term': 'en',
+        'id': 1241315239,
+        'image': None
+    }, {
+        'definition': 'find',
+        'rank': 1,
+        'term': 'encontrar',
+        'id': 1241315240,
+        'image': None
+    }, {
+        'definition': 'is',
+        'rank': 2,
+        'term': 'es',
+        'id': 1241315241,
+        'image': None
+    }, {
+        'definition': 'this',
+        'rank': 3,
+        'term': 'esta',
+        'id': 1241315242,
+        'image': None
+    }, {
+        'definition': 'happy',
+        'rank': 4,
+        'term': 'feliz',
+        'id': 1241315243,
+        'image': None
+    }, {
+        'definition': 'people',
+        'rank': 5,
+        'term': 'gente',
+        'id': 1241315244,
+        'image': None
+    }, {
+        'definition': 'big',
+        'rank': 6,
+        'term': 'grande',
+        'id': 1241315245,
+        'image': None
+    }, {
+        'definition': 'to do',
+        'rank': 7,
+        'term': 'hacer',
+        'id': 1241315246,
+        'image': None
+    }, {
+        'definition': 'there is',
+        'rank': 8,
+        'term': 'hay',
+        'id': 1241315247,
+        'image': None
+    }, {
+        'definition': 'hello',
+        'rank': 9,
+        'term': 'hola',
+        'id': 1241315248,
+        'image': None
+    }, {
+        'definition': 'to live',
+        'rank': 10,
+        'term': 'vivir',
+        'id': 1241315249,
+        'image': None
+    }, {
+        'definition': 'to feel',
+        'rank': 11,
+        'term': 'sentir',
+        'id': 1241315250,
+        'image': None
+    }, {
+        'definition': 'to treat',
+        'rank': 12,
+        'term': 'tratar',
+        'id': 1241315251,
+        'image': None
+    }, {
+        'definition': 'to watch',
+        'rank': 13,
+        'term': 'mirar',
+        'id': 1241315252,
+        'image': None
+    }, {
+        'definition': 'to count',
+        'rank': 14,
+        'term': 'contar',
+        'id': 1241315253,
+        'image': None
+    }, {
+        'definition': 'to hope',
+        'rank': 15,
+        'term': 'esperar',
+        'id': 1241315254,
+        'image': None
+    }, {
+        'definition': 'to start',
+        'rank': 16,
+        'term': 'empezar',
+        'id': 1241315255,
+        'image': None
+    }, {
+        'definition': 'to search',
+        'rank': 17,
+        'term': 'buscar',
+        'id': 1241315256,
+        'image': None
+    }, {
+        'definition': 'to exist',
+        'rank': 18,
+        'term': 'existir',
+        'id': 1241315257,
+        'image': None
+    }, {
+        'definition': 'to enter',
+        'rank': 19,
+        'term': 'entrar',
+        'id': 1241315258,
+        'image': None
+    }],
+    'title': 'Spanish Vocab 4',
+    'term_count': 20,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'es',
+    'url': '/36345656/spanish-vocab-4-flash-cards/',
+    'id': 36345656,
+    'published_date': 1392240574,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1392324889,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1392240574,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': False,
+    'terms': [{
+        'definition': 'The peasant foot soldiers won the main battles',
+        'rank': 0,
+        'term': "How did the nature of warfare change in the Hundred Years' War?",
+        'id': 1235613381,
+        'image': None
+    }, {
+        'definition': 'War of Roses',
+        'rank': 1,
+        'term': 'The Conflict between nobles in England who sought to control the monarchy is known as the __________?',
+        'id': 1235613382,
+        'image': None
+    }, {
+        'definition': 'Inspiring the French with her faith',
+        'rank': 2,
+        'term': "Joan of Arc brought the Hundred Years' War to a decisive turning point by ________?",
+        'id': 1235613383,
+        'image': None
+    }, {
+        'definition': 'The War of Roses',
+        'rank': 3,
+        'term': "After the Hundred Years' War, England faced more turmoil from _______?",
+        'id': 1235613384,
+        'image': None
+    }, {
+        'definition': 'Henry V',
+        'rank': 4,
+        'term': 'Who defeated the French at the Battle of Agincourt?',
+        'id': 1235613385,
+        'image': None
+    }, {
+        'definition': 'The Investiture Controversy',
+        'rank': 5,
+        'term': 'The struggle between Henry IV and Gregory VII was known as _________?',
+        'id': 1235613386,
+        'image': None
+    }, {
+        'definition': 'Increase in the number of workers',
+        'rank': 6,
+        'term': 'Which of the following was NOT a consequence of the plague?',
+        'id': 1235613387,
+        'image': None
+    }, {
+        'definition': 'Spanish mercenaries were let loose to sack the city of Rome',
+        'rank': 7,
+        'term': 'The war between France and Spain for control of Italy ended when the ______?',
+        'id': 1235613388,
+        'image': None
+    }, {
+        'definition': 'Land, gold and jewels from conquered lands, and indulgence',
+        'rank': 8,
+        'term': "What were the individuals' benefits for going on the Crusades?",
+        'id': 1235613389,
+        'image': None
+    }, {
+        'definition': 'Weaken the papacy',
+        'rank': 9,
+        'term': 'Pope Innocent did all of the following EXCEPT?',
+        'id': 1235613390,
+        'image': None
+    }, {
+        'definition': 'The Concordat of Worms',
+        'rank': 10,
+        'term': 'All of the following were famous shrines associated with pilgrimages EXCEPT ______?',
+        'id': 1235613391,
+        'image': None
+    }, {
+        'definition': 'Spain',
+        'rank': 11,
+        'term': 'In the late Middle Ages, which country pursued a policy of religious conformity?',
+        'id': 1235613392,
+        'image': None
+    }, {
+        'definition': 'The court created by the Catholic Church to find and try heretics',
+        'rank': 12,
+        'term': 'The Inquisition was ______?',
+        'id': 1235613393,
+        'image': None
+    }, {
+        'definition': 'Practice tool skills',
+        'rank': 13,
+        'term': 'Humanist educators of the Renaissance stressed all of the following EXCEPT ______?',
+        'id': 1235613394,
+        'image': None
+    }, {
+        'definition': 'The Peace of Augsburg',
+        'rank': 14,
+        'term': 'The division of Christianity in Germany into Lutheran states was recognized by _______?',
+        'id': 1235613395,
+        'image': None
+    }, {
+        'definition': 'Conquer lands in France',
+        'rank': 15,
+        'term': 'King Henry VIII did all of the following EXCEPT ______?',
+        'id': 1235613396,
+        'image': None
+    }, {
+        'definition': 'Attack the abuses in the sale of indulgences, beginning the Protestant Reformation?',
+        'rank': 16,
+        'term': "The publication of Martin Luther's Ninety-five Theses ________?",
+        'id': 1235613397,
+        'image': None
+    }, {
+        'definition': 'Predestination',
+        'rank': 17,
+        'term': 'Calvin agreed with Luther on most important doctrines except _________?',
+        'id': 1235613398,
+        'image': None
+    }, {
+        'definition': 'Reaffirmed traditional Catholic teachings in opposition to Protestant beliefs',
+        'rank': 18,
+        'term': 'The final decrees of the Council of Trent _________?',
+        'id': 1235613399,
+        'image': None
+    }, {
+        'definition': 'Set quality standards',
+        'rank': 19,
+        'term': 'One function of craft guilds was to ______?',
+        'id': 1235613400,
+        'image': None
+    }, {
+        'definition': 'The two field-system',
+        'rank': 20,
+        'term': 'Agricultural improvements were result of all of the following EXCEPT ______?',
+        'id': 1235613401,
+        'image': None
+    }, {
+        'definition': 'Oxen',
+        'rank': 21,
+        'term': 'All of the following were goods that increased in availability due to the expansion of trade EXCEPT _______?',
+        'id': 1235613402,
+        'image': None
+    }, {
+        'definition': 'Romanesque',
+        'rank': 22,
+        'term': 'Building that had long, round, stone, arched roofs; massive pillars; and massive walls were called _________?',
+        'id': 1235613403,
+        'image': None
+    }, {
+        'definition': 'Carruca',
+        'rank': 23,
+        'term': 'A _______ was a heavy, wheeled plow with an iron plowshare.',
+        'id': 1235613404,
+        'image': None
+    }, {
+        'definition': 'Initiated a series of trade fairs in the chief towns of the territory',
+        'rank': 24,
+        'term': 'In order to encourage trade between Flanders and Italy, the courts of Champagne _______?',
+        'id': 1235613405,
+        'image': None
+    }, {
+        'definition': 'Burghers or bourgeoisie, from the German word burg, meaning "a walled enclosure."',
+        'rank': 25,
+        'term': 'Merchants and artisans living in walled cities came to be called _________?',
+        'id': 1235613406,
+        'image': None
+    }, {
+        'definition': 'Realistic',
+        'rank': 26,
+        'term': 'Paintings and sculptures of the Renaissance were more __________?',
+        'id': 1235613407,
+        'image': None
+    }, {
+        'definition': 'The end of poverty',
+        'rank': 27,
+        'term': 'The Renaissance was all of the following EXCEPT ___________?',
+        'id': 1235613408,
+        'image': None
+    }, {
+        'definition': 'Structures with high towers, pointed arches, and grouped windows',
+        'rank': 28,
+        'term': 'Gothic style architecture can be described as ___________?',
+        'id': 1235613409,
+        'image': None
+    }, {
+        'definition': 'Were legally bound and were not farmers like the peasants',
+        'rank': 29,
+        'term': 'Serfs were different from peasants in that serfs _______?',
+        'id': 1235613410,
+        'image': None
+    }, {
+        'definition': 'Isabella married Ferdinand',
+        'rank': 30,
+        'term': "Spain's two strongest kingdoms, Castile and Aragon, were united when _______?",
+        'id': 1235613411,
+        'image': None
+    }, {
+        'definition': 'Carefully rigged to make sure that only patricians were elected',
+        'rank': 31,
+        'term': 'Elections for the city council in the medieval cities were often ___________?',
+        'id': 1235613412,
+        'image': None
+    }, {
+        'definition': 'Severe economic consequences',
+        'rank': 32,
+        'term': 'The Black Death killed nearly 38 million people, resulting in __________?',
+        'id': 1235613413,
+        'image': None
+    }, {
+        'definition': 'Venice',
+        'rank': 33,
+        'term': 'The city-state that was led by a group of wealthy merchant-aristocrats was ________?',
+        'id': 1235613414,
+        'image': None
+    }, {
+        'definition': 'Human nature was self-centered',
+        'rank': 34,
+        'term': 'Machiavelli encouraged rulers and would-be rulers to believe that _______?',
+        'id': 1235613415,
+        'image': None
+    }, {
+        'definition': 'France',
+        'rank': 35,
+        'term': 'Charles V ruled all of the following EXCEPT ________?',
+        'id': 1235613416,
+        'image': None
+    }, {
+        'definition': 'Conquer lands in France',
+        'rank': 36,
+        'term': 'King Henry VIII did all of the following EXCEPT _________?',
+        'id': 1235613417,
+        'image': None
+    }, {
+        'definition': 'Spanish mercenaries were let loose to sack the city Rome',
+        'rank': 37,
+        'term': 'The war between France and Spain for control of Italy ended when the _________?',
+        'id': 1235613418,
+        'image': None
+    }, {
+        'definition': 'More doctors',
+        'rank': 38,
+        'term': 'The population increase during the High Middle Ages for all for all of these reasons EXCEPT?',
+        'id': 1235613419,
+        'image': None
+    }, {
+        'definition': 'Vassal',
+        'rank': 39,
+        'term': 'Which of the following is NOT a part of the guild training system?',
+        'id': 1235613420,
+        'image': None
+    }, {
+        'definition': 'Battles and political contests',
+        'rank': 40,
+        'term': 'Heroic epic poems usually described',
+        'id': 1235613421,
+        'image': None
+    }, {
+        'definition': 'Muslim and Jewish scholars',
+        'rank': 41,
+        'term': 'The classical works of Aristotle were introduced to Western Europe by _____?',
+        'id': 1235613422,
+        'image': None
+    }, {
+        'definition': 'Nobles',
+        'rank': 42,
+        'term': 'The third estate was made up of the following EXCEPT______?',
+        'id': 1235613423,
+        'image': None
+    }, {
+        'definition': 'The frescoes',
+        'rank': 43,
+        'term': 'The Renaissance artist of northern Europe painted ______?',
+        'id': 1235613424,
+        'image': None
+    }, {
+        'definition': 'Religion and morals',
+        'rank': 44,
+        'term': 'Renaissance woman were educated in _____',
+        'id': 1235613425,
+        'image': None
+    }, {
+        'definition': 'Was a painter, sculptor, architect, inventor, and mathematician',
+        'rank': 45,
+        'term': "Leonardo da Vinci was an excellent example of Renaissance Italy's social ideal because he________?",
+        'id': 1235613426,
+        'image': None
+    }, {
+        'definition': "Chaucer's use of the English vernacular was important in making his dialect the cheif ancestor of the modern English language",
+        'rank': 46,
+        'term': 'Chaucer\'s "The Canterbury Tales" in an important work because ________?',
+        'id': 1235613427,
+        'image': None
+    }],
+    'title': 'Medieval Quiz',
+    'term_count': 47,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'en',
+    'url': '/36166994/medieval-quiz-flash-cards/',
+    'id': 36166994,
+    'published_date': 1392082305,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1392082305,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1392082305,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': False,
+    'terms': [{
+        'definition': 'Ciencias de la computación es lo subjecto mas importante porque en seña a la resolución de problemas.',
+        'rank': 0,
+        'term': 'Cuál subjecto es lo más importante para que aprender?',
+        'id': 1222427290,
+        'image': None
+    }, {
+        'definition': 'Yo he vivido en mi casa por tres años.',
+        'rank': 1,
+        'term': 'Por cuánto tiempo has vivido en tu casa o apartamento?',
+        'id': 1222427291,
+        'image': None
+    }, {
+        'definition': 'Mi canción favorita es Fallen porque suena bien.',
+        'rank': 2,
+        'term': 'Cuál es tu canción favorita ahora? Por qué?',
+        'id': 1222427292,
+        'image': None
+    }, {
+        'definition': 'El año pasado, mi clase favorita fue Medios Digitales porque yo era bueno en eso.',
+        'rank': 3,
+        'term': 'El año pasado, cuál fue tu clase favorita? Por Que?',
+        'id': 1222427293,
+        'image': None
+    }, {
+        'definition': 'Cuando era niño, yo comía en Gator Dockside con mi familia la mayor del tiempo.',
+        'rank': 4,
+        'term': 'Cuando era niño, dónde comías con tu familia la mayor del tiempo?',
+        'id': 1222427294,
+        'image': None
+    }, {
+        'definition': 'Si tuviera un millón dólares mañana, me gustaría empezar una empresa.',
+        'rank': 5,
+        'term': 'Si tendrías un millón dólares mañana, qué harías?',
+        'id': 1222427295,
+        'image': None
+    }, {
+        'definition': 'Me gustaría tener una furgoneta porque lleva mucho.',
+        'rank': 6,
+        'term': 'Que tipo de carro le gustaría tener? Por que?',
+        'id': 1222427296,
+        'image': None
+    }, {
+        'definition': 'En diez años, espero ser un programador independiente porque yo trabajo mejor solo.',
+        'rank': 7,
+        'term': 'En diez años, dónde esperas que estar?',
+        'id': 1222427297,
+        'image': None
+    }, {
+        'definition': 'Me gustaría ser un programador porque es divertido.',
+        'rank': 8,
+        'term': 'Cuál tipo de carrera le gustaría tener? Por que?',
+        'id': 1222427298,
+        'image': None
+    }, {
+        'definition': 'Voy a dormir este fin de semana.',
+        'rank': 9,
+        'term': 'Qué harás este fin de semana?',
+        'id': 1222427299,
+        'image': None
+    }],
+    'title': 'Oral Exam',
+    'term_count': 10,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'es',
+    'lang_terms': 'es',
+    'url': '/35765292/oral-exam-flash-cards/',
+    'id': 35765292,
+    'published_date': 1391628769,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1391635814,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1391628769,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': False,
+    'terms': [{
+        'definition': 'to leave',
+        'rank': 0,
+        'term': 'dejar',
+        'id': 1221421833,
+        'image': None
+    }, {
+        'definition': 'to follow',
+        'rank': 1,
+        'term': 'seguir',
+        'id': 1221421834,
+        'image': None
+    }, {
+        'definition': 'to find',
+        'rank': 2,
+        'term': 'encontrar',
+        'id': 1221421835,
+        'image': None
+    }, {
+        'definition': 'to call',
+        'rank': 3,
+        'term': 'llamar',
+        'id': 1221421836,
+        'image': None
+    }, {
+        'definition': 'to come',
+        'rank': 4,
+        'term': 'venir',
+        'id': 1221421837,
+        'image': None
+    }, {
+        'definition': 'to think',
+        'rank': 5,
+        'term': 'pensar',
+        'id': 1221421838,
+        'image': None
+    }, {
+        'definition': 'to go out',
+        'rank': 6,
+        'term': 'salir',
+        'id': 1221421839,
+        'image': None
+    }, {
+        'definition': 'to return',
+        'rank': 7,
+        'term': 'volver',
+        'id': 1221421840,
+        'image': None
+    }, {
+        'definition': 'to take',
+        'rank': 8,
+        'term': 'tomar',
+        'id': 1221421841,
+        'image': None
+    }, {
+        'definition': 'to know',
+        'rank': 9,
+        'term': 'conocer',
+        'id': 1221421842,
+        'image': None
+    }, {
+        'definition': 'boy',
+        'rank': 10,
+        'term': 'chico',
+        'id': 1221421843,
+        'image': None
+    }, {
+        'definition': 'from',
+        'rank': 11,
+        'term': 'de',
+        'id': 1221421844,
+        'image': None
+    }, {
+        'definition': 'under',
+        'rank': 12,
+        'term': 'debajo',
+        'id': 1221421845,
+        'image': None
+    }, {
+        'definition': 'to say',
+        'rank': 13,
+        'term': 'decir',
+        'id': 1221421846,
+        'image': None
+    }, {
+        'definition': 'after',
+        'rank': 14,
+        'term': 'después de',
+        'id': 1221421847,
+        'image': None
+    }, {
+        'definition': 'where is it',
+        'rank': 15,
+        'term': 'dónde está',
+        'id': 1221421848,
+        'image': None
+    }, {
+        'definition': 'during',
+        'rank': 16,
+        'term': 'durante',
+        'id': 1221421849,
+        'image': None
+    }, {
+        'definition': 'he',
+        'rank': 17,
+        'term': 'él',
+        'id': 1221421850,
+        'image': None
+    }, {
+        'definition': 'she',
+        'rank': 18,
+        'term': 'ella',
+        'id': 1221421851,
+        'image': None
+    }, {
+        'definition': 'they',
+        'rank': 19,
+        'term': 'ellos',
+        'id': 1221421852,
+        'image': None
+    }],
+    'title': 'Spanish Vocab 3',
+    'term_count': 20,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'es',
+    'url': '/35730841/spanish-vocab-3-flash-cards/',
+    'id': 35730841,
+    'published_date': 1391590098,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1391590098,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1391590098,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': 'In January 2014',
+    'terms': [{
+        'definition': 'to want',
+        'rank': 0,
+        'term': 'querer',
+        'id': 1200334830,
+        'image': None
+    }, {
+        'definition': 'to arrive',
+        'rank': 1,
+        'term': 'llegar',
+        'id': 1200334831,
+        'image': None
+    }, {
+        'definition': 'to pass',
+        'rank': 2,
+        'term': 'pasar',
+        'id': 1200334832,
+        'image': None
+    }, {
+        'definition': 'to owe',
+        'rank': 3,
+        'term': 'deber',
+        'id': 1200334833,
+        'image': None
+    }, {
+        'definition': 'to put',
+        'rank': 4,
+        'term': 'poner',
+        'id': 1200334834,
+        'image': None
+    }, {
+        'definition': 'to seem, appear',
+        'rank': 5,
+        'term': 'parecer',
+        'id': 1200334835,
+        'image': None
+    }, {
+        'definition': 'to stay',
+        'rank': 6,
+        'term': 'quedar',
+        'id': 1200334836,
+        'image': None
+    }, {
+        'definition': 'to believe',
+        'rank': 7,
+        'term': 'creer',
+        'id': 1200334837,
+        'image': None
+    }, {
+        'definition': 'to speak',
+        'rank': 8,
+        'term': 'hablar',
+        'id': 1200334838,
+        'image': None
+    }, {
+        'definition': 'to carry',
+        'rank': 9,
+        'term': 'llevar',
+        'id': 1200334839,
+        'image': None
+    }, {
+        'definition': 'like this, like that',
+        'rank': 10,
+        'term': 'así',
+        'id': 1203184828,
+        'image': None
+    }, {
+        'definition': 'still',
+        'rank': 11,
+        'term': 'aún',
+        'id': 1203184829,
+        'image': None
+    }, {
+        'definition': 'good',
+        'rank': 12,
+        'term': 'bueno',
+        'id': 1203184830,
+        'image': None
+    }, {
+        'definition': 'almost',
+        'rank': 13,
+        'term': 'casi',
+        'id': 1203184831,
+        'image': None
+    }, {
+        'definition': 'like',
+        'rank': 14,
+        'term': 'como',
+        'id': 1203184832,
+        'image': None
+    }, {
+        'definition': 'how',
+        'rank': 15,
+        'term': 'cómo',
+        'id': 1203184833,
+        'image': None
+    }, {
+        'definition': 'with',
+        'rank': 16,
+        'term': 'con',
+        'id': 1203184834,
+        'image': None
+    }, {
+        'definition': 'thing',
+        'rank': 17,
+        'term': 'cosa',
+        'id': 1203184835,
+        'image': None
+    }, {
+        'definition': 'which',
+        'rank': 18,
+        'term': 'cual',
+        'id': 1203184836,
+        'image': None
+    }, {
+        'definition': 'when',
+        'rank': 19,
+        'term': 'cuando',
+        'id': 1203184837,
+        'image': None
+    }, {
+        'definition': 'to be',
+        'rank': 20,
+        'term': 'ser',
+        'id': 1216151443,
+        'image': None
+    }, {
+        'definition': 'to be',
+        'rank': 21,
+        'term': 'estar',
+        'id': 1216151444,
+        'image': None
+    }, {
+        'definition': 'to have',
+        'rank': 22,
+        'term': 'tener',
+        'id': 1216151445,
+        'image': None
+    }, {
+        'definition': 'to do',
+        'rank': 23,
+        'term': 'hacer',
+        'id': 1216151446,
+        'image': None
+    }, {
+        'definition': 'to be able to',
+        'rank': 24,
+        'term': 'poder',
+        'id': 1216151447,
+        'image': None
+    }, {
+        'definition': 'to say',
+        'rank': 25,
+        'term': 'decir',
+        'id': 1216151448,
+        'image': None
+    }, {
+        'definition': 'to go',
+        'rank': 26,
+        'term': 'ir',
+        'id': 1216151449,
+        'image': None
+    }, {
+        'definition': 'to see',
+        'rank': 27,
+        'term': 'ver',
+        'id': 1216151450,
+        'image': None
+    }, {
+        'definition': 'to give',
+        'rank': 28,
+        'term': 'dar',
+        'id': 1216151451,
+        'image': None
+    }, {
+        'definition': 'to know',
+        'rank': 29,
+        'term': 'saber',
+        'id': 1216151452,
+        'image': None
+    }, {
+        'definition': 'sometimes',
+        'rank': 30,
+        'term': 'a veces',
+        'id': 1216151453,
+        'image': None
+    }, {
+        'definition': 'bye',
+        'rank': 31,
+        'term': 'adiós',
+        'id': 1216151454,
+        'image': None
+    }, {
+        'definition': 'out',
+        'rank': 32,
+        'term': 'afuera',
+        'id': 1216151455,
+        'image': None
+    }, {
+        'definition': 'now',
+        'rank': 33,
+        'term': 'ahora',
+        'id': 1216151456,
+        'image': None
+    }, {
+        'definition': 'at the',
+        'rank': 34,
+        'term': 'al',
+        'id': 1216151457,
+        'image': None
+    }, {
+        'definition': 'friend',
+        'rank': 35,
+        'term': 'amigo',
+        'id': 1216151458,
+        'image': None
+    }, {
+        'definition': 'owner',
+        'rank': 36,
+        'term': 'amo',
+        'id': 1216151459,
+        'image': None
+    }, {
+        'definition': 'before',
+        'rank': 37,
+        'term': 'antes de',
+        'id': 1216151460,
+        'image': None
+    }, {
+        'definition': 'here',
+        'rank': 38,
+        'term': 'aquí',
+        'id': 1216151461,
+        'image': None
+    }, {
+        'definition': 'up',
+        'rank': 39,
+        'term': 'arriba',
+        'id': 1216151462,
+        'image': None
+    }],
+    'title': 'Spanish vocab 2',
+    'term_count': 40,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'es',
+    'url': '/35074302/spanish-vocab-2-flash-cards/',
+    'id': 35074302,
+    'published_date': 1390855482,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': '',
+    'has_images': False,
+    'modified_date': 1391454393,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1390855482,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}, {
+    'display_timestamp': False,
+    'terms': [{
+        'definition': 'the warrior',
+        'rank': 0,
+        'term': 'el guerrero',
+        'id': 1172242652,
+        'image': None
+    }, {
+        'definition': 'the emperor',
+        'rank': 1,
+        'term': 'el emperador',
+        'id': 1172242653,
+        'image': None
+    }, {
+        'definition': 'the palace',
+        'rank': 2,
+        'term': 'el palacio',
+        'id': 1172242654,
+        'image': None
+    }, {
+        'definition': 'the enemy',
+        'rank': 3,
+        'term': 'el enemigo',
+        'id': 1172242655,
+        'image': None
+    }, {
+        'definition': 'the body',
+        'rank': 4,
+        'term': 'el cuerpo',
+        'id': 1172242656,
+        'image': None
+    }, {
+        'definition': 'the volcano',
+        'rank': 5,
+        'term': 'el volcán',
+        'id': 1172242657,
+        'image': None
+    }, {
+        'definition': 'the army',
+        'rank': 6,
+        'term': 'el ejército',
+        'id': 1172242658,
+        'image': None
+    }, {
+        'definition': 'the throne',
+        'rank': 7,
+        'term': 'el trono',
+        'id': 1172242659,
+        'image': None
+    }, {
+        'definition': 'the princess',
+        'rank': 8,
+        'term': 'la princesa',
+        'id': 1172242660,
+        'image': None
+    }, {
+        'definition': 'the war',
+        'rank': 9,
+        'term': 'la guerra',
+        'id': 1172242661,
+        'image': None
+    }, {
+        'definition': 'the news',
+        'rank': 10,
+        'term': 'las noticias',
+        'id': 1172242662,
+        'image': None
+    }, {
+        'definition': 'the tears',
+        'rank': 11,
+        'term': 'las lágrimas',
+        'id': 1172242663,
+        'image': None
+    }, {
+        'definition': 'the bed of flowers',
+        'rank': 12,
+        'term': 'la cama de flores',
+        'id': 1172242664,
+        'image': None
+    }, {
+        'definition': 'to be in love with someone',
+        'rank': 13,
+        'term': 'estar enamorado/a de alguien',
+        'id': 1172242665,
+        'image': None
+    }, {
+        'definition': 'to say goodbye to someone',
+        'rank': 14,
+        'term': 'despedirse de alguien',
+        'id': 1172242666,
+        'image': None
+    }, {
+        'definition': 'to marry someone',
+        'rank': 15,
+        'term': 'casarse con alguien',
+        'id': 1172242667,
+        'image': None
+    }, {
+        'definition': 'to fall dead',
+        'rank': 16,
+        'term': 'caer muerto/a',
+        'id': 1172242668,
+        'image': None
+    }, {
+        'definition': 'to change one thing for another',
+        'rank': 17,
+        'term': 'cambiar algo en algo',
+        'id': 1172242669,
+        'image': None
+    }, {
+        'definition': 'to vanquish',
+        'rank': 18,
+        'term': 'vencer',
+        'id': 1172242670,
+        'image': None
+    }, {
+        'definition': 'to announce',
+        'rank': 19,
+        'term': 'anunciar',
+        'id': 1172242671,
+        'image': None
+    }, {
+        'definition': 'to wear/carry',
+        'rank': 20,
+        'term': 'llevar',
+        'id': 1172242672,
+        'image': None
+    }, {
+        'definition': 'to cry',
+        'rank': 21,
+        'term': 'llorar',
+        'id': 1172242673,
+        'image': None
+    }, {
+        'definition': 'to expell smoke',
+        'rank': 22,
+        'term': 'echar humo',
+        'id': 1172242674,
+        'image': None
+    }, {
+        'definition': 'to tremble',
+        'rank': 23,
+        'term': 'temblar e-ie',
+        'id': 1172242675,
+        'image': None
+    }, {
+        'definition': 'to shake hands',
+        'rank': 24,
+        'term': 'dar la mano',
+        'id': 1172242676,
+        'image': None
+    }, {
+        'definition': 'dear',
+        'rank': 25,
+        'term': 'querido/a',
+        'id': 1172242677,
+        'image': None
+    }, {
+        'definition': 'sad',
+        'rank': 26,
+        'term': 'triste',
+        'id': 1172242678,
+        'image': None
+    }, {
+        'definition': 'valiant',
+        'rank': 27,
+        'term': 'valiente',
+        'id': 1172242679,
+        'image': None
+    }, {
+        'definition': 'victorious',
+        'rank': 28,
+        'term': 'victorioso/a',
+        'id': 1172242680,
+        'image': None
+    }, {
+        'definition': 'to be',
+        'rank': 29,
+        'term': 'ser',
+        'id': 1172242681,
+        'image': None
+    }, {
+        'definition': 'to be',
+        'rank': 30,
+        'term': 'estar',
+        'id': 1172242682,
+        'image': None
+    }, {
+        'definition': 'to have',
+        'rank': 31,
+        'term': 'tener',
+        'id': 1172242683,
+        'image': None
+    }, {
+        'definition': 'to do',
+        'rank': 32,
+        'term': 'hacer',
+        'id': 1172242684,
+        'image': None
+    }, {
+        'definition': 'to be able to',
+        'rank': 33,
+        'term': 'poder',
+        'id': 1172242685,
+        'image': None
+    }, {
+        'definition': 'to say',
+        'rank': 34,
+        'term': 'decir',
+        'id': 1172242686,
+        'image': None
+    }, {
+        'definition': 'to go',
+        'rank': 35,
+        'term': 'ir',
+        'id': 1172242687,
+        'image': None
+    }, {
+        'definition': 'to see',
+        'rank': 36,
+        'term': 'ver',
+        'id': 1172242688,
+        'image': None
+    }, {
+        'definition': 'to give',
+        'rank': 37,
+        'term': 'dar',
+        'id': 1172242689,
+        'image': None
+    }, {
+        'definition': 'to know',
+        'rank': 38,
+        'term': 'saber',
+        'id': 1172242690,
+        'image': None
+    }, {
+        'definition': 'sometimes',
+        'rank': 39,
+        'term': 'a veces',
+        'id': 1172242691,
+        'image': None
+    }, {
+        'definition': 'bye',
+        'rank': 40,
+        'term': 'adiós',
+        'id': 1172242692,
+        'image': None
+    }, {
+        'definition': 'out',
+        'rank': 41,
+        'term': 'afuera',
+        'id': 1172242693,
+        'image': None
+    }, {
+        'definition': 'now',
+        'rank': 42,
+        'term': 'ahora',
+        'id': 1172242694,
+        'image': None
+    }, {
+        'definition': 'at the',
+        'rank': 43,
+        'term': 'al',
+        'id': 1172242695,
+        'image': None
+    }, {
+        'definition': 'friend',
+        'rank': 44,
+        'term': 'amigo',
+        'id': 1172242696,
+        'image': None
+    }, {
+        'definition': 'owner',
+        'rank': 45,
+        'term': 'amo',
+        'id': 1172242697,
+        'image': None
+    }, {
+        'definition': 'before',
+        'rank': 46,
+        'term': 'antes de',
+        'id': 1172242698,
+        'image': None
+    }, {
+        'definition': 'here',
+        'rank': 47,
+        'term': 'aquí',
+        'id': 1172242699,
+        'image': None
+    }, {
+        'definition': 'up',
+        'rank': 48,
+        'term': 'arriba',
+        'id': 1172242700,
+        'image': None
+    }],
+    'title': 'En Español 4 Los Novios',
+    'term_count': 49,
+    'visibility': 'public',
+    'creator_id': 11354479,
+    'password_edit': 0,
+    'has_access': True,
+    'lang_definitions': 'en',
+    'lang_terms': 'es',
+    'url': '/34054047/en-espanol-4-los-novios-flash-cards/',
+    'id': 34054047,
+    'published_date': 1389820266,
+    'class_ids': [],
+    'created_by': 'ben19989',
+    'description': 'Vocabulary to accompany the legend of Los Novios Popocatépetl and Ixtaccíhuatl',
+    'has_images': False,
+    'modified_date': 1389820280,
+    'subjects': [],
+    'editable': 'only_me',
+    'created_date': 1389820266,
+    'creator': {
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8',
+        'id': 11354479,
+        'username': 'ben19989',
+        'account_type': 'free'
+    },
+    'password_use': 0,
+    'can_edit': False,
+    'access_type': 2
+}]

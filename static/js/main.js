@@ -4,6 +4,7 @@ $("#ptimer").hide();
 
 var pomr = 0;
 var autopom = true;
+var audio;
 
 setTimeout(function(){
     SC.initialize({
@@ -33,12 +34,14 @@ function stopPom(){
     pomr = 0;
     $("#ptimer").attr("stopped", "true");
     $("#ptimer").slideUp();
+    $("#yoga").slideDown()
 }
 
 function addPomTimer(min, n){
         if(min == 2){
             pomr += 1;
             $("#ptimer").attr("break","false")
+            $("#yoga").slideUp()
         }
         var html = '<span class="name">Pomodora '+n+'Timer</span> <br>\
                         <span class="t"><span class="tm">'+min+'</span>:<span class="ts">00</span></span>'
@@ -47,6 +50,7 @@ function addPomTimer(min, n){
 
 function startPomBreak(){
     $("#ptimer").attr("break","true")
+    $("#yoga").slideDown()
     if(pomr == 4){
         pomr = 0
         addPomTimer(3, "Extended Break ")
@@ -221,9 +225,50 @@ function saveC(){
     $("#closeC").click();
 }
 
+
 function startMusic(){
-    "best-deep-house-chill-music"    
+    try{audio.pause();} catch(e){}
+    var file = $("#songchoice").val();
+    audio = new Audio("audio/"+file);
+    audio.volume = .5;
+    audio.play();
     
 }
+
+
+function doit(){
+    console.log("Here")
+    if($("#myonoffswitch").is(':checked')){
+        startPom()   
+    } else {
+        stopPom()
+    }
+    
+    return true;
+}
+
+function selPage(path){
+    $("#content").html('<iframe id="mainframe" src="'+path+'" frameBorder="0"></iframe>')
+}
+
+function loadPom(){
+    var html = '<div id="chold"><img src = "img/pomodoro1.png" id="pic"><p>Studies show that the human brain\'s concentration ability decreases by 50% after 30 minutes of studying. </p> <p>Use our built -in timer to keep your study sessions down to manageable sections of 25 minutes so that you\'ll always be working at your best! </p><p>The best part? Every hour, you get an extra long 15 minute break! Feel free to check out our relaxation page to distress during your breaks.</p>\
+<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" onchange="doit()"><label class="onoffswitch-label" for="myonoffswitch"><span class="onoffswitch-inner"></span></label></div>'
+    $("#content").html(html);
+}
+
+function logout(){
+    var cookies = document.cookie.split(";");
+
+    for (var i = 0; i < cookies.length; i++) {
+    	var cookie = cookies[i];
+    	var eqPos = cookie.indexOf("=");
+    	var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+    	document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+    }
+    
+    document.location.reload();
+}
+
 
 setInterval(updateTime, 1000)

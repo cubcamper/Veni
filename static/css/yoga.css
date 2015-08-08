@@ -1,0 +1,20 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,400italic,700,900,700italic,900italic,300);
+
+*{
+font-family: 'Late', sans-serif !important;
+}
+
+body{
+    background-color: #e9eaed;
+    text-align: center;
+    vertical-align: center; 
+}
+
+div{
+margin-top: 40px;
+}
+
+#yogatitle{
+    margin-top: 40px;
+}

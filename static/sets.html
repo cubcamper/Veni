@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="css/paper.css" type="text/css" rel="stylesheet"/>
+ <link href="css/sets.css" type="text/css" rel="stylesheet"/>
+ <script src="js/jquery.js"></script>
+ <script src="js/bootstrap.js"></script>
+ 
+</head>
+<body>
+		<h1 style="text-align:center;">View Your <strong>Quizlet</strong> Sets</h1>
+       
+<div class="container-fluid">
+        <div class="row">
+            <!--left collumn-->
+                <div class="col-xs-6">
+                {% for i in l1 %}
+                    <!--panel-->
+                   <div class="panel panel-primary" onclick="document.location = '?s={{i['id']}}'">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">{{i['title']}}</h3>
+                        </div>
+                       <!--terms-->
+                        <div class="panel-body">
+                            {{i['terms'][0]['term']}}
+                        </div>
+                        <div class="panel-body">
+                            {{i['terms'][1]['term']}}
+                        </div>
+                        <div class="panel-body">
+                            {{i['terms'][2]['term']}}
+                        </div>
+                    </div> 
+                    
+                {% end %}
+                    
+                    
+                </div>
+            
+            <!--right collumn-->
+                <div class="col-xs-6">
+                {% for i in l2 %}
+                    <!--panel-->
+                   <div class="panel panel-primary" onclick="document.location = '?s={{i['id']}}'">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">{{i['title']}}</h3>
+                        </div>
+                       <!--terms-->
+                        <div class="panel-body">
+                            {{i['terms'][0]['term']}}
+                        </div>
+                        <div class="panel-body">
+                            {{i['terms'][1]['term']}}
+                        </div>
+                        <div class="panel-body">
+                            {{i['terms'][2]['term']}}
+                        </div>
+                    </div> 
+                    
+                {% end %}
+                    
+                    
+                </div>
+        </div>
+</div>
+</body>
+</html>

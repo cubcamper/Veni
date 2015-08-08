@@ -1,0 +1,36 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,400italic,700,900,700italic,900italic,300);
+
+h1{
+    color: #2196f3 !important;
+}
+
+
+span{
+    font-weight: 100 !important; 
+}
+
+body {
+    font-family: 'Late', sans-serif !important;
+}
+
+
+h1{
+	text-align: center;
+    color: 
+}
+
+div#cardList{
+	position: absolute;
+	left:25%;
+	top:30%;
+	width:50%;
+	height:50%;
+	float: center;
+	border: 2px solid darkgray;
+	font-size: 30px;
+}
+
+div#cardList select{
+	height:100%;
+}

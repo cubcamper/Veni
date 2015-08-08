@@ -1,0 +1,103 @@
+{
+    'created_date': 1430767244,
+    'published_date': 1430769484,
+    'description': '',
+    'can_edit': False,
+    'created_by': 'ben19989',
+    'has_access': True,
+    'visibility': 'public',
+    'url': '/81684271/ap-stats-test-conditions-flash-cards/',
+    'terms': [{
+        'definition': 'SDUF\n\nStrength (strong)\nDirection (+/-)\nUnusual features (outliers)\nForm (linear, curved)',
+        'term': 'Scatterplot',
+        'id': 2525041533,
+        'rank': 0,
+        'image': None
+    }, {
+        'definition': 'R-AP\n\nResidual = Actual-Predicted\nr=y-yhat',
+        'term': 'Residuals',
+        'id': 2525081951,
+        'rank': 1,
+        'image': None
+    }, {
+        'definition': 'CUSS\n\nCenter\nUnusual features (gaps, outliers)\nShape (unimodal , symmetric, skewed)\nSpread',
+        'term': 'Describing histograms, d0tplot, stem+leaf plots',
+        'id': 2525060234,
+        'rank': 2,
+        'image': None
+    }, {
+        'definition': 'CSI\n\nConditions (assumptions)\nShow work (name test)\nInterpret interval (conclusion)',
+        'term': 'Confidence Interval',
+        'id': 2525089919,
+        'rank': 3,
+        'image': None
+    }, {
+        'definition': "Type I: You're pregnant (to guy)\nType II: You're not pregnant (to pregnant woman)",
+        'term': 'Type I and II errors',
+        'id': 2525102549,
+        'rank': 4,
+        'image': None
+    }, {
+        'definition': 'GUTS\n\nGraphs\nUnits\nTitle\nSame scale for two',
+        'term': 'Graphs',
+        'id': 2525138204,
+        'rank': 5,
+        'image': None
+    }, {
+        'definition': 'CRR\n\nControl\nRandomization\nRepetition',
+        'term': 'Well designed expiriments',
+        'id': 2525147291,
+        'rank': 6,
+        'image': None
+    }, {
+        'definition': 'SINS\n\nSRS\nIndependancre\nN<10%\nSuccess/failure (np > 10; nq > 10)',
+        'term': '1 prop z-test (interval)',
+        'id': 2525203983,
+        'rank': 7,
+        'image': None
+    }, {
+        'definition': 'SIN\n\nSRS\nIndependant groups\nNearly Normal (histigram or NPP or CLT when n is large)',
+        'term': '1 samp t-test (interval)',
+        'id': 2525230667,
+        'rank': 8,
+        'image': None
+    }, {
+        'definition': '2 Dependant groups; df = n-1;\n\nPR10N\n\nPaired data\nRandom\n10%\nNearly normal on differences',
+        'term': 'Matched Pairs T-Test',
+        'id': 2525253701,
+        'rank': 9,
+        'image': None
+    }, {
+        'definition': 'GOF df = n-1 | Other df = (r-1)(c-1)\n\nCIESR\n\nCounts of data\nIndependance\nExpected counts >= 5\nSimple \nRandom Sample',
+        'term': 'Chi-Square Test',
+        'id': 2525269878,
+        'rank': 10,
+        'image': None
+    }, {
+        'definition': 'df = n-2\n\nNICL\n\nNormality (check histigram of NPP)\nIndependance\nConstant variance (no "fan" in residuals or about line)\nLinearilty (scatterplot + residuals)',
+        'term': 'Linear Regression T-test for SLOPE',
+        'id': 2525282733,
+        'rank': 11,
+        'image': None
+    }],
+    'password_edit': 0,
+    'lang_definitions': 'en',
+    'title': 'AP Stats test conditions',
+    'modified_date': 1430769485,
+    'class_ids': [],
+    'creator': {
+        'username': 'ben19989',
+        'account_type': 'free',
+        'id': 11354479,
+        'profile_image': 'https://quizlet.com/fbpic/hprofile-ak-xap1/v/t1.0-1/c4.0.320.320/p320x320/10514663_10201516940964473_759218349641050126_n.jpg?oh=506076ce9eb30a83698f841dd7cb3862&oe=560CDF31&__gda__=1439300129_b38acffb77263f9e83ba71b8bdd53db8'
+    },
+    'access_type': 2,
+    'creator_id': 11354479,
+    'term_count': 12,
+    'lang_terms': 'en',
+    'password_use': 0,
+    'editable': 'only_me',
+    'id': 81684271,
+    'has_images': False,
+    'subjects': []
+}

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>TITLE - Veni</title>
+        <title>Home - Veni</title>
         
         <link href="css/paper.css" type="text/css" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
@@ -26,7 +26,7 @@
                     
                         <div class="s timer" stopped="false" id="ptimer"></div>
                         
-                    <div id="yoga" class="s c" data-toggle="modal" data-target="#cModal"><b><i class="fa fa-leaf"></i></b>&nbsp;Yoga</div>
+                    <div id="yoga" class="s c"  onclick="selPage('yoga'); return false;"><b><i class="fa fa-leaf"></i></b>&nbsp;Yoga</div>
                     <div id="add" class="s dropdown">
                         <span class="dropdown-toggle c" data-toggle="dropdown" role="button" aria-expanded="false"><b><i class="fa fa-plus"></i></b>&nbsp;Add Widget</span>
                         <ul class="dropdown-menu" role="menu" style="width:80%;">
@@ -65,24 +65,29 @@
                             <div id="prod" class="l2">
                                 <span onclick="$('#pt').slideToggle()">Productivity <i class="fa fa-angle-down"></i></span>
                                 <div id="pt" class="l3">
-                                    <a href="#">Todo Lists</a>
-                                    <a href="#">Calendar</a>
-                                    <a href="#">Pomodoro</a>
+                                    <a href="#" onclick="selPage('todo'); return false;">To-Do Lists</a>
+                                    <a href="#" onclick="selPage('calendar'); return false;">Calendar</a>
+                                    <a href="#" onclick="loadPom(); return false;">Pomodoro</a>
                                 </div>
                             </div>
                             
                             <div id="study" class="l2">
-                                <span onclick="$('#st').slideToggle()">Study <i class="fa fa-angle-down"></i></span>
+                                <span onclick="$('#st').slideToggle(); return false;">Study <i class="fa fa-angle-down"></i></span>
                                 <div id="st" class="l3">
-                                    <a href="#">Flashcards</a>
-                                    <a href="#">Study Tips</a>
+                                    <a href="#" onclick="selPage('flashcards'); return false;">Flashcards</a>
+                                    <a href="#" onclick="selPage('tips'); return false;">Study Tips</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
                 </div>
-                <div class="col-xs-10" id="content"></div>
+                <div class="col-xs-10" id="content">
+                    <br><br>
+                    <h1 style="text-align:center;">Please select a page!</h1>
+                    <!--<iframe id="mainframe" src="todo.html" frameBorder="0"></iframe>-->    
+                    
+                </div>
             </div>
         </div>
          
@@ -103,19 +108,24 @@
                     <div class="modal-body" >
                         
                         <label><input type="checkbox" id="autopon" checked> &nbsp; Automatically continue on Ponodoro</label>
-                        <br><hr><br>
+                        <br><hr>
+                        <h3 style="text-align:center">Study Music</h3>
                         <select class="form-control" id="songchoice" onchange="startMusic()">
                             <option noplay>Select music to play</option>
-                            <option>Acoustic</option>
-                            <option>Nature Sounds</option>
-                            <option>Classical</option>
-                            <option>Instrumental</option>
-                            <option>Chill</option>
-                            <option>Ambiant</option>
-                            <option>Relax</option>
-                            <option>Soft</option>
+                            <option value="acoustic.mp3">Acoustic</option>
+                            <option value="naturesounds.mp3">Nature Sounds</option>
+                            <option value="classical.mp3">Classical</option>
+                            <option value="instrumental.mp3">Instrumental</option>
+                            <option value="chill.mp3">Chillstep</option>
+                            <option value="ambient.mp3">Ambient</option>
+                            <option value="relax.mp3">Relax</option>
+                            <option value="soft.mp3">Soft</option>
                         </select>
-
+                        <Br>
+                        <center><i class="fa fa-pause fa-3x" onclick="audio.pause()" style="cursor:pointer;"></i>
+                            &nbsp;&nbsp;
+                        <i class="fa fa-play fa-3x" onclick="audio.play()" style="cursor:pointer;"></i>
+                            </center>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>

@@ -1,0 +1,49 @@
+#quizletbutton{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 50px;
+}
+
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 55%;
+    width: 100%;
+    margin-top: 40px;
+    background-image: url("../img/landing_page_COMPLETE.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#background{
+    position: relative;
+    
+    height: 700px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+#rectangle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 50%;
+    width: 20%;
+    border-radius: 10px;
+}
+#navbar {
+    position: absolute;
+    top: 20;
+    top:40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
