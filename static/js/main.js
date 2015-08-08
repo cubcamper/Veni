@@ -112,19 +112,43 @@ function sT(e){
 
 function gCommon(e){
     var goal = $(e).parent().parent();
-    var done = $(".done", goal);
-    var total = $(".total", goal);
+    var done = parseInt($(".done", goal).text());
+    var total = parseInt($(".total", goal).text());
     
+    return [goal, done, total]
 }
 
 function gP(e){
-    gCommon(e)
+    var a = gCommon(e)
+    var g = a[0];
+    var done = a[1]+1
+    
+    var p = done / a[2] * 100;
+    
+    $(".progress-bar", g).css("width", p+"%")
+    $(".done", g).text(done)
 }
 
 function gM(e){
-    
+    var a = gCommon(e)
+    var g = a[0];
+    var done = a[1]-1
+     
+    var p = done / a[2] * 100;
+
+    $(".progress-bar", g).css("width",p+"%")
+    $(".done", g).text(done)
 }
 
-
+function addGoal(){
+    var goal = prompt("What is your goal?")
+    var total = prompt("How many times do you want to do this goal?")
+    
+    html = '<div class="s goal"><div class="progress"><div class="progress-bar progress-bar-warning" style="width: 0%"></div></div>\
+                        <span class="name">'+goal+'</span> <br><span class="prog"><span class="done">0</span> / <span class="total">'+total+'</span>\
+                        </span><br><br><div class="btn-group"><a href="#" class="btn btn-danger" onclick="gM($(this))">-</a><a href="#" class="btn btn-success" onclick="gP($(this))">+</a></div></div>';
+    
+    $(html).insertAfter("#conf")
+}
 
 setInterval(updateTime, 1000)
