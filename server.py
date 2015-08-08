@@ -54,15 +54,31 @@ class oAuthCallback(web.RequestHandler):
             self.set_cookie('username', myjson['user_id'])
 
             print("Logged in!", uid)
-            self.redirect('dashboard')
+            self.redirect('home')
+
+class HomeHandler(web.RequestHandler):
+    def get(self, *args, **kwargs ):
+        username = self.get_cookie("username", None)
+
+        if username == None:
+            print("User not logged in")
+            self.render("static/loggedout.html")
+        else:
+            print("User logged in")
+            self.render("static/main.html")
 
 
 
 
 app = web.Application([
+    (r'/', HomeHandler),
     (r'/login', QuizletLogin),
     (r'/callback', oAuthCallback),
-    (r'/static/(.*)', web.StaticFileHandler, {'path': "static"}),
+    (r'/home', HomeHandler),
+    (r'/css/(.*)', web.StaticFileHandler, {'path': "static/css"}),
+    (r'/js/(.*)', web.StaticFileHandler, {'path': "static/js"}),
+    (r'/img/(.*)', web.StaticFileHandler, {'path': "static/img"}),
+    (r'/fonts/(.*)', web.StaticFileHandler, {'path': "static/fonts"}),
 
 ], debug=True)
 
