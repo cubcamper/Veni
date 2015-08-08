@@ -53,36 +53,26 @@ class oAuthCallback(web.RequestHandler):
             self.set_cookie('username', myjson['user_id'])
 
             print("Logged in!", uid)
-            self.redirect('home')
-
-class HomeHandler(web.RequestHandler):
-    def get(self, *args, **kwargs ):
-        username = self.get_cookie("username", None)
-
-        if username == None:
-            print("User not logged in")
-            self.render("static/loggedout.html")
-        else:
-            print("User logged in")
-            self.render("static/main.html", user=username)
+            self.redirect('dashboard')
 
 class GoogleCalendarLogin(web.RequestHandler):
     def get(self):
             #self.render('static/calendar.html')
             self.render('static/quickstart.html')
 
+class GoogleCalendarAddEvent (web.RequestHandler):
+    def get(self):
+            self.render('static/caladdevent.html')
+
 
 
 
 app = web.Application([
-    (r'/', HomeHandler),
     (r'/login', QuizletLogin),
     (r'/callback', oAuthCallback),
-    (r'/home', HomeHandler),
-    (r'/css/(.*)', web.StaticFileHandler, {'path': "static/css"}),
-    (r'/js/(.*)', web.StaticFileHandler, {'path': "static/js"}),
-    (r'/img/(.*)', web.StaticFileHandler, {'path': "static/img"}),
-    (r'/calendar', GoogleCalendarLogin)
+    (r'/static/(.*)', web.StaticFileHandler, {'path': "static"}),
+    (r'/calendar', GoogleCalendarLogin),
+    (r'/calendar/addevent', GoogleCalendarAddEvent),
 
 ], debug=True)
 

@@ -1,7 +1,7 @@
 <html>
   <head>
   
-  
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript">
 	
 	
@@ -9,7 +9,7 @@
       // Developer Console, https://console.developers.google.com
       var CLIENT_ID = '604301400620-5maq396pshcvt91lb8lk44v3fcitp40e.apps.googleusercontent.com';
 
-      var SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"];
+      var SCOPES = ["https://www.googleapis.com/auth/calendar"];
 
       /**
        * Check if current user has authorized this application.
@@ -107,6 +107,49 @@
         var textContent = document.createTextNode(message + '\n');
         pre.appendChild(textContent);
       }
+	  
+	  var event = {
+  'summary': 'Google I/O 2015',
+  'location': '800 Howard St., San Francisco, CA 94103',
+  'description': 'A chance to hear more about Google\'s developer products.',
+  'start': {
+    'dateTime': '2015-05-28T09:00:00-07:00',
+    'timeZone': 'America/Los_Angeles'
+  },
+  'end': {
+    'dateTime': '2015-05-28T17:00:00-07:00',
+    'timeZone': 'America/Los_Angeles'
+  },
+  'recurrence': [
+    'RRULE:FREQ=DAILY;COUNT=2'
+  ],
+  'attendees': [
+    {'email': 'lpage@example.com'},
+    {'email': 'sbrin@example.com'}
+  ],
+  'reminders': {
+    'useDefault': false,
+    'overrides': [
+      {'method': 'email', 'minutes': 24 * 60},
+      {'method': 'popup', 'minutes': 10}
+    ]
+  }
+};
+
+$(document).ready(function(){
+	setTimeout(function(){
+	var request = gapi.client.calendar.events.insert({
+	  'calendarId': 'primary',
+	  'resource': event
+	});
+	
+	request.execute(function(event) {
+  appendPre('Event created: ' + event.htmlLink);
+});
+},4000)
+});
+
+
 
     </script>
     <script src="https://apis.google.com/js/client.js?onload=checkAuth">
