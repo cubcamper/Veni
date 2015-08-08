@@ -60,6 +60,10 @@ class GoogleCalendarLogin(web.RequestHandler):
             #self.render('static/calendar.html')
             self.render('static/quickstart.html')
 
+class GoogleCalendarAddEvent (web.RequestHandler):
+    def get(self):
+            self.render('static/caladdevent.html')
+
 
 
 
@@ -68,6 +72,7 @@ app = web.Application([
     (r'/callback', oAuthCallback),
     (r'/static/(.*)', web.StaticFileHandler, {'path': "static"}),
     (r'/calendar', GoogleCalendarLogin),
+    (r'/calendar/addevent', GoogleCalendarAddEvent),
 
 ], debug=True)
 
