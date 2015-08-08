@@ -4,11 +4,22 @@ html, body{
 }
 
 #header{
-    height: 7%; 
+    height: 8%; 
     width: 100%;
-    background-color: darkorange;
+    background-color: #9D9D93;
+    text-align: center;
+    vertical-align: center;
 }
 
+#logo{
+    /*align-content: center;   */
+    height: 80%;
+    width: auto;
+    vertical-align: center;
+    text-align: center;
+    
+    
+}
 #cont, #cont > div{
     height: 93%;   
 }
