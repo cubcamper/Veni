@@ -6,14 +6,11 @@ html, body{
 #header{
     height: 8%; 
     width: 100%;
-<<<<<<< HEAD
-    background-color: #9D9D93;
     text-align: center;
     vertical-align: center;
-=======
-    background-color: darkorange;
+    background-color: #A395E8;
+    border-bottom: 1px solid black;
     color:white;
->>>>>>> 6965cb80da4a8814fce2fc53d12ae880b4e21237
 }
 
 #logo{
@@ -79,8 +76,8 @@ html, body{
     padding-left: 10px;
 }
 
-.l2:hover{
-    background-color: coral;
+.l2:hover span{
+    text-decoration: underline;
 }
 .l2{
     padding-left: 5px;
@@ -90,8 +87,12 @@ html, body{
     cursor: pointer;
 }
 
+.l3 a:hover{
+    text-decoration: underline;
+}
 .l3 a{
     color: white;
+    text-decoration: none;
     display: block;
 }
 .l3{
@@ -101,4 +102,42 @@ html, body{
 
 #add{
     cursor: pointer;
+}
+
+.timer .t{
+    font-size: 24px;   
+}
+.timer{
+    text-align: center;
+}
+
+.timer .btn{
+    margin-top: -13px;   
+}
+
+.name{
+    font-size: 18px;
+}
+
+.ti{
+    width: 30px;
+    display: inline-block;
+    color: white;
+    line-height: 15px;
+}
+
+.goal{
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.goal .prog{
+    font-size: 22px;   
+}
+
+.goal .progress{
+    margin-top:0px;
+    margin-bottom: 5px;
 }

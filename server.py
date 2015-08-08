@@ -64,15 +64,31 @@ class GoogleCalendarAddEvent (web.RequestHandler):
     def get(self):
             self.render('static/caladdevent.html')
 
+class HomeHandler(web.RequestHandler):
+    def get(self, *args, **kwargs ):
+        username = self.get_cookie("username", None)
 
+        if username == None:
+            print("User not logged in")
+            self.render("static/loggedout.html")
+        else:
+            print("User logged in")
+            self.render("static/main.html", user=username)
 
 
 app = web.Application([
+    (r'/', HomeHandler),
+    (r'/home', HomeHandler),
     (r'/login', QuizletLogin),
     (r'/callback', oAuthCallback),
     (r'/static/(.*)', web.StaticFileHandler, {'path': "static"}),
     (r'/calendar', GoogleCalendarLogin),
     (r'/calendar/addevent', GoogleCalendarAddEvent),
+    (r'/css/(.*)', web.StaticFileHandler, {'path': "static/css"}),
+    (r'/audio/(.*)', web.StaticFileHandler, {'path': "static/audio"}),
+    (r'/js/(.*)', web.StaticFileHandler, {'path': "static/js"}),
+    (r'/img/(.*)', web.StaticFileHandler, {'path': "static/img"}),
+    (r'/fonts/(.*)', web.StaticFileHandler, {'path': "static/fonts"}),
 
 ], debug=True)
 

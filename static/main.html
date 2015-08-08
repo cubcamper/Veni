@@ -11,15 +11,11 @@
     </head>
     
     <body>
-<<<<<<< HEAD
 <!--header-->
-        <div id="header"><img src = "3.png" id="logo"/></div>
-            <div class="container-fluid" style="height:93%;">
-=======
-        <div id="header"><i class="fa fa-bars fa-3x"></i></div>
+        <div id="header"><img src = "img/10.png" id="logo"/></div>
+
         
         <div class="container-fluid" style="height:93%;">
->>>>>>> 6965cb80da4a8814fce2fc53d12ae880b4e21237
             <div class="row" id="cont">
                 <div class="col-xs-2" id="sidebar">
                     <div class="s" id="time">
@@ -30,11 +26,33 @@
                     <div id="add" class="s dropdown">
                         <span class="dropdown-toggle c" data-toggle="dropdown" role="button" aria-expanded="false"><b><i class="fa fa-plus"></i></b>&nbsp;Add Widget</span>
                         <ul class="dropdown-menu" role="menu" style="width:80%;">
-                            <li><a href="#" onclick="addPerson(); return false;">Add Person</a></li>
+                            <li><a href="#" onclick="addTimer(); return false;">Add Timer</a></li>
+                            <li><a href="#" onclick="addGoal(); return false;">Add Goal</a></li>
                         </ul>
                     </div>
                     
-                    <div class="s c" data-toggle="modal" data-target="#cModal"><b><i class="fa fa-cog"></i></b>&nbsp;Customize</div>
+                    <div id="conf" class="s c" data-toggle="modal" data-target="#cModal"><b><i class="fa fa-cog"></i></b>&nbsp;Customize</div>
+                    
+                    <!--<div class="s timer" stopped="true">
+                        <span class="name">name here</span> <br>
+                        <input class="form-control ti tm" placeholder="mm"> : <input class="form-control ti ts" placeholder="ss"> <br><br>
+                        <a href="#" class="btn btn-primary btn-sm" onclick="sT($(this))">Start</a>
+                    </div>-->
+                    
+                    <div class="s goal">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" style="width: 0%"></div>
+                        </div>
+                        <span class="name">name here</span> <br>
+                        <span class="prog">
+                            <span class="done">0</span> / <span class="total">10</span>
+                        </span><br><br>
+                        
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-danger" onclick="gP($(this))">-</a>
+                            <a href="#" class="btn btn-success" onclick="gM($(this))">+</a>
+                        </div>
+                    </div>
                     
                     <div id="nav" class="s">
                         <big onclick="$('#nav1').slideToggle()">Nav <i class="fa fa-chevron-down"></i></big>
