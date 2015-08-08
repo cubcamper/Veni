@@ -64,7 +64,7 @@ class HomeHandler(web.RequestHandler):
             self.render("static/loggedout.html")
         else:
             print("User logged in")
-            self.render("static/main.html")
+            self.render("static/main.html", user=username)
 
 class GoogleCalendarLogin(web.RequestHandler):
     def get(self):
