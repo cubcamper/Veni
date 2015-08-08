@@ -1,5 +1,5 @@
 from tornado import web, template, ioloop, httpclient
-import requests
+#import requests
 import json
 import random
 import string
@@ -19,7 +19,6 @@ class QuizletLogin(web.RequestHandler):
         state = id_generator()
         self.set_cookie("csrf", state)
         self.render('static/login.html', state= state, host = conf['hostname'], qid = conf["q_key"])
-
 
 
 class oAuthCallback(web.RequestHandler):
@@ -67,6 +66,11 @@ class HomeHandler(web.RequestHandler):
             print("User logged in")
             self.render("static/main.html")
 
+class GoogleCalendarLogin(web.RequestHandler):
+    def get(self):
+            #self.render('static/calendar.html')
+            self.render('static/quickstart.html')
+
 
 
 
@@ -78,7 +82,7 @@ app = web.Application([
     (r'/css/(.*)', web.StaticFileHandler, {'path': "static/css"}),
     (r'/js/(.*)', web.StaticFileHandler, {'path': "static/js"}),
     (r'/img/(.*)', web.StaticFileHandler, {'path': "static/img"}),
-    (r'/fonts/(.*)', web.StaticFileHandler, {'path': "static/fonts"}),
+    (r'/calendar', GoogleCalendarLogin)
 
 ], debug=True)
 
