@@ -43,6 +43,8 @@ html, body{
 .s{
     padding: 5px;
     border-bottom: 1px solid #474747;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 .s:hover{
@@ -63,7 +65,7 @@ html, body{
 
 .c{
     font-size: 18px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 #nav big{
@@ -223,4 +225,12 @@ p{
     width: 100%;
     padding: 0 40px;
     text-align: center;
+}
+
+#bars{
+    position: absolute;
+    z-index: 3;
+    left:10px;
+    top:1%;
+    cursor: pointer;
 }

@@ -1,50 +1,73 @@
 <!doctype html>
 <html>
-    <head>
-        <title>Home - Veni</title>
-        
-        <link href="css/paper.css" type="text/css" rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
-        <link href="css/main.css" type="text/css" rel="stylesheet">
-        
-        <!-- Todo: Inlcude meta tags -->
-    </head>
-    
-    <body>
-<!--header-->
-        <div id="header"><img src = "img/10.png" id="logo"/></div>
 
-        
-        <div class="container-fluid" style="height:93%;">
-            <div class="row" id="cont">
-                <div class="col-xs-2" id="sidebar">
-                    <div class="s" id="time">
-                        <span>Hello, {{user}}!
+<head>
+    <title>Home - Veni</title>
+
+    <link href="css/paper.css" type="text/css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+
+    <!-- Todo: Inlcude meta tags -->
+</head>
+
+<body>
+    <!--header-->
+    <div id="header"><i class="fa fa-bars fa-3x" id="bars" closed="false" onclick="toggleSide();"></i><img src="img/10.png" id="logo" /></div>
+
+
+    <div class="container-fluid" style="height:93%;">
+        <div class="row" id="cont">
+            <div class="col-xs-2" id="sidebar">
+                <div class="s" id="time">
+                    <span>Hello, {{user}}!
                         <!--<br>The time is</span>-->
-                        <span id="dtime" style="display:none"></span>
+                    <span id="dtime" style="display:none"></span>
+                </div>
+
+                <div class="s timer" stopped="false" id="ptimer"></div>
+
+
+                <div id="dash" class="s c" onclick="selPage('dash'); return false;"><b><i class="fa fa-home"></i></b>&nbsp;Dashboard</div>
+                <!--<div id="yoga" class="s c"  onclick="selPage('yoga'); return false;"><b><i class="fa fa-leaf"></i></b>&nbsp;Yoga</div>-->
+                <div id="add" class="s dropdown">
+                    <span class="dropdown-toggle c" data-toggle="dropdown" role="button" aria-expanded="false"><b><i class="fa fa-plus"></i></b>&nbsp;Add Widget</span>
+                    <ul class="dropdown-menu" role="menu" style="width:80%;">
+                        <li><a href="#" onclick="addTimer(); return false;">Add Timer</a></li>
+                        <li><a href="#" onclick="addGoal(); return false;">Add Goal</a></li>
+                    </ul>
+                </div>
+
+                <div id="prod" class="s c"><span onclick="$('.l3', '#prod').slideToggle()"><b><i class="fa fa-graduation-cap"></i></b>&nbsp;Productivity</span>
+                    <div class="l3">
+                        <a href="#" onclick="selPage('todo'); return false;">Agenda</a>
+                        <a href="#" onclick="selPage('cal'); return false;">Calander</a>
+                        <a href="#" onclick="selPage('goals'); return false;">Goals</a>
+                        <a href="#" onclick="selPage('notes'); return false;">Notes</a>
+                        <a href="#" onclick="loadPom(); return false;">Time Manangement</a>
+
                     </div>
-                    
-                        <div class="s timer" stopped="false" id="ptimer"></div>
-                        
-                    <div id="yoga" class="s c"  onclick="selPage('yoga'); return false;"><b><i class="fa fa-leaf"></i></b>&nbsp;Yoga</div>
-                    <div id="add" class="s dropdown">
-                        <span class="dropdown-toggle c" data-toggle="dropdown" role="button" aria-expanded="false"><b><i class="fa fa-plus"></i></b>&nbsp;Add Widget</span>
-                        <ul class="dropdown-menu" role="menu" style="width:80%;">
-                            <li><a href="#" onclick="addTimer(); return false;">Add Timer</a></li>
-                            <li><a href="#" onclick="addGoal(); return false;">Add Goal</a></li>
-                        </ul>
+                </div>
+
+                <div id="classes" class="s c" onclick="selPage('class'); return false;"><b><i class="fa fa-pencil"></i></b>&nbsp;Classes</div>
+
+                <div id="mot" class="s c"><span onclick="$('.l3', '#mot').slideToggle()"><b><i class="fa fa-graduation-cap"></i></b>&nbsp;Stay Motivated</span>
+                    <div class="l3">
+                        <a href="#" onclick="loadMusic()">Agenda</a>
+                        <a href="#" onclick="selPage('breathing'); return false;">Breathing</a>
+                        <a href="#" onclick="selPage('yoga'); return false;">Yoga</a>
+                        <a href="#" onclick="selPage('motivation'); return false;">Motivation</a>
+
                     </div>
-                   
-                    
-                    <div id="conf" class="s c" data-toggle="modal" data-target="#cModal"><b><i class="fa fa-cog"></i></b>&nbsp;Customize</div>
-                    
-                    <!--<div class="s timer" stopped="true">
+                </div>
+
+                <!--<div class="s timer" stopped="true">
                         <span class="name">name here</span> <br>
                         <input class="form-control ti tm" placeholder="mm"> : <input class="form-control ti ts" placeholder="ss"> <br><br>
                         <a href="#" class="btn btn-primary btn-sm" onclick="sT($(this))">Start</a>
                     </div>-->
-                    
-                    <!--<div class="s goal">
+
+                <!--<div class="s goal">
                         <div class="progress">
                             <div class="progress-bar progress-bar-info" style="width: 0%"></div>
                         </div>
@@ -58,8 +81,8 @@
                             <a href="#" class="btn btn-success" onclick="gP($(this))">+</a>
                         </div>
                     </div>-->
-                    
-                    <div id="nav" class="s">
+
+                <!--<div id="nav" class="s">
                         <big onclick="$('#nav1').slideToggle()">Nav <i class="fa fa-chevron-down"></i></big>
                         <div id="nav1">
                             <div id="prod" class="l2">
@@ -79,65 +102,69 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
-                </div>
-                <div class="col-xs-10" id="content">
-                    <br><br>
-                    <h1 style="text-align:center;">Please select a page!</h1>
-                    <!--<iframe id="mainframe" src="todo.html" frameBorder="0"></iframe>-->    
-                    
-                </div>
+                    </div>-->
+                <div id="conf" class="s c" data-toggle="modal" data-target="#cModal"><b><i class="fa fa-cog"></i></b>&nbsp;Settings</div>
+
+            </div>
+            <div class="col-xs-10" id="content">
+                <br>
+                <br>
+                <h1 style="text-align:center;">Please select a page!</h1>
+                <!--<iframe id="mainframe" src="todo.html" frameBorder="0"></iframe>-->
+
             </div>
         </div>
-         
-   
-   
-        
-    
-        
-        <!-- Modal -->
-        <div class="modal fade" id="cModal" tabindex="-1" role="dialog" aria-labelledby="cModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeC"><span aria-hidden="true">&times;</span>
-                        </button>
-                        <h4 class="modal-title" id="editModalLabel">Customize Veni</h4>
-                    </div>
-                    <div class="modal-body" >
-                        
-                        <label><input type="checkbox" id="autopon" checked> &nbsp; Automatically continue on Ponodoro</label>
-                        <br><hr>
-                        <h3 style="text-align:center">Study Music</h3>
-                        <select class="form-control" id="songchoice" onchange="startMusic()">
-                            <option noplay>Select music to play</option>
-                            <option value="acoustic.mp3">Acoustic</option>
-                            <option value="naturesounds.mp3">Nature Sounds</option>
-                            <option value="classical.mp3">Classical</option>
-                            <option value="instrumental.mp3">Instrumental</option>
-                            <option value="chill.mp3">Chillstep</option>
-                            <option value="ambient.mp3">Ambient</option>
-                            <option value="relax.mp3">Relax</option>
-                            <option value="soft.mp3">Soft</option>
-                        </select>
-                        <Br>
-                        <center><i class="fa fa-pause fa-3x" onclick="audio.pause()" style="cursor:pointer;"></i>
-                            &nbsp;&nbsp;
+    </div>
+
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="cModal" tabindex="-1" role="dialog" aria-labelledby="cModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeC"><span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="editModalLabel">Customize Veni</h4>
+                </div>
+                <div class="modal-body">
+
+                    <label>
+                        <input type="checkbox" id="autopon" checked> &nbsp; Automatically continue on Ponodoro</label>
+                    <br>
+                    <hr>
+                    <h3 style="text-align:center">Study Music</h3>
+                    <select class="form-control" id="songchoice" onchange="startMusic()">
+                        <option noplay>Select music to play</option>
+                        <option value="acoustic.mp3">Acoustic</option>
+                        <option value="naturesounds.mp3">Nature Sounds</option>
+                        <option value="classical.mp3">Classical</option>
+                        <option value="instrumental.mp3">Instrumental</option>
+                        <option value="chill.mp3">Chillstep</option>
+                        <option value="ambient.mp3">Ambient</option>
+                        <option value="relax.mp3">Relax</option>
+                        <option value="soft.mp3">Soft</option>
+                    </select>
+                    <Br>
+                    <center><i class="fa fa-pause fa-3x" onclick="audio.pause()" style="cursor:pointer;"></i> &nbsp;&nbsp;
                         <i class="fa fa-play fa-3x" onclick="audio.play()" style="cursor:pointer;"></i>
-                            </center>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                        <button type="button" class="btn btn-primary" onclick="saveC()">Save Changes</button>
-                    </div>
+                    </center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="saveC()">Save Changes</button>
                 </div>
             </div>
         </div>
-        
-        <script src="http://connect.soundcloud.com/sdk-2.0.0.js"></script>
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+    </div>
+
+    <script src="http://connect.soundcloud.com/sdk-2.0.0.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
 </html>

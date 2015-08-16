@@ -270,5 +270,17 @@ function logout(){
     document.location.reload();
 }
 
+function toggleSide(){
+    if($("#bars").attr("closed") == "false"){
+        $("#sidebar").hide()   
+        $("#content").toggleClass("col-xs-10 col-xs-12")
+        $("#bars").attr("closed", "true")
+    } else {
+        $("#sidebar").show()   
+        $("#content").toggleClass("col-xs-10 col-xs-12")   
+        $("#bars").attr("closed", "false")
+    }
+}
+
 
 setInterval(updateTime, 1000)
